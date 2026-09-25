@@ -1,0 +1,255 @@
+{
+  "main": {
+    "id": "871ed46163522d54",
+    "type": "split",
+    "children": [
+      {
+        "id": "ad13f3d4355a5119",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "da5d8555c5c70529",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Source/Scraped/2026-09-11_ACRE-IT-Contingency-Staffing-Services.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2026-09-11_ACRE-IT-Contingency-Staffing-Services"
+            }
+          },
+          {
+            "id": "d6f5206637225ff0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Source/Scraped/2026-09-16_NYCHA-RFP-521201-IT-Staff-Augmentation-Services.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2026-09-16_NYCHA-RFP-521201-IT-Staff-Augmentation-Services"
+            }
+          },
+          {
+            "id": "6e2445dc810d9acf",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "62e8b3c450cf82df",
+    "type": "split",
+    "children": [
+      {
+        "id": "0187ef9a635ba842",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "941013a34d6bdd63",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "37b828bf350ef0b3",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "6c42700e611d5256",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "58c3cec4b9d8858f",
+    "type": "split",
+    "children": [
+      {
+        "id": "b936c3233d6cb019",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "520264bdc13c869b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Source/Scraped/048_arkansas_ionwave_net.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "79be6528c81acd74",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Source/Scraped/048_arkansas_ionwave_net.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "819180f8eb64f41a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "e4fe0e741fdd693f",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "c7670f205fefa02d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Source/Scraped/048_arkansas_ionwave_net.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "6e2445dc810d9acf",
+  "lastOpenFiles": [
+    "Source/Scraped/2026-09-16_NYCHA-RFP-521201-IT-Staff-Augmentation-Services.md",
+    "Source/Scraped/2026-09-16_NYC-HH-RFP-2845-IT-Supplemental-Staffing-Services.md",
+    "Source/Scraped/2026-09-16_NORTA-IFB-2026-020-360-IT-Managed-Services.md",
+    "Source/Scraped/2026-09-16_MSCS-Supplemental-RN-and-LPN-Staffing-Services.md",
+    "Source/Scraped/2026-09-16_Hawaii-DOH-IT-Services-Endpoint-Devices.md",
+    "AGENTS.md",
+    "CLAUDE.md",
+    "URL/reachable/blocked.md",
+    "URL/reachable/easily_scrapable.md",
+    "CLAUDE.md.tmp.116840.20494d208646",
+    "CLAUDE.md.tmp.116840.0681ff2c0c7c",
+    "URL/url_not_applicable.md",
+    "Source/Scraped/2026-09-11_VA-621I-Healthcare-Staffing-RFP.md",
+    "Source/Scraped/2026-09-11_RFP-102226-Uncrewed-Systems-Managed-Services.md",
+    "Source/Scraped/2026-09-11_Invest-Alberta-Recruitment-Support-Services.md",
+    "Source/Scraped/2026-09-11_Frederick-County-Business-Analysis-Project-Management-Consulting-RFP.md",
+    "Source/Scraped/2026-09-11_Detroit-Public-Schools-Supplemental-Staffing-RFP.md",
+    "Source/Scraped/2026-09-11_DC-Water-IT-Professional-Services-RFP.md",
+    "Source/Scraped/2026-09-11_Columbia-Public-Schools-Security-Access-Controls-RFP.md",
+    "Source/Scraped/2026-09-11_City-of-Stamford-Enterprise-SIP-Trunking-RFP.md",
+    "Source/Scraped/2026-09-11_City-of-Lynchburg-EMS-Staffing-Assessment-RFP.md",
+    "Source/Scraped/2026-09-11_ACRE-IT-Contingency-Staffing-Services.md",
+    "URL/reachable/blocked.md.tmp.116840.7c79562495bd",
+    "URL/reachable/easily_scrapable.md.tmp.116840.50176fcf0fdf",
+    "URL/url_reachable.md",
+    "URL/reachable",
+    "URL/url_not_applicable.md.tmp.116840.539b9a5ea3bd",
+    "URL/url_reachable.md.tmp.116840.b0aac14616d0",
+    "URL/url_reachable.md.tmp.116840.0f2300caf6fb",
+    "URL/url_reachable.md.tmp.116840.a6c536ab0b6f",
+    "URL/url_reachable.md.tmp.116840.22d53cd08bf7",
+    "Source/Scraped/192_procurement_opengov_com_portal_cheyennecity.md",
+    "Source/Scraped/048_arkansas_ionwave_net.md",
+    "Source/Scraped/015_acwd_bonfirehub_com_portal.md",
+    "Source/Scraped/004_njstart_gov.md",
+    "Source/Scraped/191_procurement_opengov_com_portal_brevardschools.md"
+  ]
+}
