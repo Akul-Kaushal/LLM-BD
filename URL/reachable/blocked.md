@@ -1,5 +1,9 @@
 # Blocked (Reachable subset)
 
+## Login / registration / session pages reviewed on 2026-09-26
+
+- http://www.morriscountybidsystem.com/ (redirects to `https://www.bidnetdirect.com/new-jersey`; server responds 200 with a real BidNet Direct marketing/landing page, but the page contains no bid-listing content — only "Login"/"Register" links — so no solicitation data is viewable without a BidNet account; reclassified from `easily_scrapable.md` after re-check)
+
 ## Login / registration / session pages reviewed on 2026-09-16
 
 - http://procurement.opengov.com/ (redirects to generic OpenGov Procurement login; no agency project grid visible at this root URL)

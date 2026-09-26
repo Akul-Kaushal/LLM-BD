@@ -2,18 +2,17 @@
 
 ## 2026-09-16 session (30 URL batch)
 
-- http://njstart.gov/ (redirects to NJSTART public portal; public open-bid/advanced-search pages load without login; no new qualifying current finding saved in this pass)
+- http://njstart.gov/ (redirects to NJSTART public portal; public open-bid/advanced-search pages load without login; one new qualifying finding saved on 2026-09-26 — see `Source/Scraped/2026-09-26_NJ-T2314-NJKiDS-Application-Maintenance-Support.md`)
 - http://www.mncppc.org/register.html (redirects to M-NCPPC vendor resources; public procurement guidance and current IFB/RFP links load without login; no qualifying listing saved from this URL itself)
-- http://www.morriscountybidsystem.com/ (public bid-system/legal-notice references are visible without login; no official current approved-keyword solicitation was saved in this pass)
-- https://a856-cityrecord.nyc.gov/ (public City Record procurement notices load without login; two qualifying NYC RFP records saved on 2026-09-16)
+- https://a856-cityrecord.nyc.gov/ (public City Record procurement notices load without login; two qualifying NYC RFP records saved on 2026-09-16; re-checked 2026-09-26, only 2 current Solicitation-type notices site-wide, neither matched the approved keyword list)
 - https://acwd.bonfirehub.com/portal/?tab=openOpportunities (public Bonfire portal; only secondary-search evidence was available for IT-related items during this pass, so no file saved)
 - https://alamedahsg.bonfirehub.com/portal/?tab=openOpportunities (public Bonfire portal; no approved-keyword official listing saved in this pass)
 - https://alexandriava.bonfirehub.com/portal/?tab=openOpportunities (public Bonfire portal; secondary mirrors showed an IT-related RFP, but no directly verifiable official detail was available in this pass)
 - https://algonquincollege.bonfirehub.ca/portal/?tab=openOpportunities (public Bonfire portal; no current approved-keyword official listing saved in this pass)
 - https://alleghenycounty.bonfirehub.com/portal/?tab=openOpportunities (public Bonfire portal; secondary mirrors showed an IT-related RFP, but no directly verifiable official detail was available in this pass)
-- https://alohaebuys.hawaii.gov/bso/view/login/login.xhtml (public Aloha eBUYS advanced-search/open-bids pages load without login; one qualifying IT services record saved on 2026-09-16)
+- https://alohaebuys.hawaii.gov/bso/view/login/login.xhtml (public Aloha eBUYS advanced-search/open-bids pages load without login; one qualifying IT services record saved on 2026-09-16; re-checked 2026-09-26, 28 open bids reviewed, none matched the approved keyword list)
 
-- https://www.scsk12.org/procurement/bids (redirects/alternate public Bids & RFPs page at `https://www.scsk12.org/procurement25/?PN=232`; public listings load without login; relevant staffing RFP saved on 2026-09-16)
+- https://www.scsk12.org/procurement/bids (redirects/alternate public Bids & RFPs page at `https://www.scsk12.org/procurement25/?PN=232`; public listings load without login; relevant staffing RFP saved on 2026-09-16; re-checked 2026-09-26, 8 open bids reviewed, none matched the approved keyword list)
 - https://newhavenhousing.cobblestonesystems.com/gateway/Login.aspx (public CobbleStone solicitation/news pages are visible without login; reviewed visible current/recent solicitations on 2026-09-16 and found no approved-keyword match)
 
 Scope: this file only covers the portion of `url_reachable.md` reviewed in the 2026-09-11 re-scrape session (rows 193 through the end of the list, ~168 URLs after the 5 not-applicable reclassifications). Rows 1–192 were scraped in an earlier session and are not classified here, except for the 5 rows added below on 2026-09-14.
