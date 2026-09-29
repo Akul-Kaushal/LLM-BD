@@ -84,12 +84,18 @@ Use **case-insensitive matching**. Preserve the official wording when recording 
    - Scope of work.
    - Commodity/category.
    - Service description.
+   - NAICS code(s) and their descriptions.
+   - NIGP code(s) and their descriptions.
+   - UNSPSC code(s) and their descriptions.
    - Official attachments or summaries when accessible.
-6. Do **not** treat a keyword appearing only in unrelated navigation, footer text, menus, privacy notices, or generic portal UI as a relevant match.
-7. A keyword match makes an RFPs, RFQs, RFSQs, IFBs, CRFQs **potentially relevant**, not automatically valid. Confirm that the keyword is actually related to the work being solicited.
-8. If multiple keywords match, record all materially relevant matched keywords.
-9. Do not invent synonyms or broaden the keyword list unless the user explicitly changes the list.
-10. If no approved keyword matches the actual RFPs, RFQs, RFSQs, IFBs, CRFQs content, do not save it as a relevant RFPs, RFQs, RFSQs, IFBs, CRFQs.
+6. Do **not** rely on the title alone. Always also check the solicitation description, scope of work, and any listed NAICS, NIGP, or UNSPSC codes before deciding a bid/solicitation is out of scope — a relevant bid can carry a generic or unrelated-sounding title.
+7. When NAICS, NIGP, or UNSPSC codes are available, cross-check them against the approved keyword list (e.g. IT services/staffing-related NAICS codes such as 541511, 541512, 541519, 561311, 561320) as an additional signal of relevance, not a replacement for the keyword match. Record the matched code(s) alongside the matched keyword(s) when they support relevance.
+8. Do **not** treat a keyword appearing only in unrelated navigation, footer text, menus, privacy notices, or generic portal UI as a relevant match.
+9. A keyword match makes an RFPs, RFQs, RFSQs, IFBs, CRFQs **potentially relevant**, not automatically valid. Confirm that the keyword is actually related to the work being solicited.
+10. Beyond keyword/code matches, assess whether the bid/solicitation is actually **workable** against the approved filters — i.e. the described scope of work is something the filters are meant to capture (e.g. genuine IT services/staff augmentation/staffing/IT work), not just an incidental or passing mention. Note this assessment briefly in the saved record's Relevance section.
+11. If multiple keywords or codes match, record all materially relevant matches.
+12. Do not invent synonyms or broaden the keyword list unless the user explicitly changes the list.
+13. If no approved keyword or relevant NAICS/NIGP/UNSPSC code matches the actual RFPs, RFQs, RFSQs, IFBs, CRFQs content, do not save it as a relevant RFPs, RFQs, RFSQs, IFBs, CRFQs.
 
 ## Research Flow
 
@@ -125,13 +131,15 @@ Do not assume that a general bid, IFB, RFQ, notice, award, or other procurement 
 
 ### Step 4 — Apply the Keyword Filter
 
-For each candidate RFP:
+For each candidate RFP, do not stop at the title — check the full listing:
 
 1. Read the title.
-2. Read the available description/scope/category.
-3. Compare the content against the approved keyword list.
-4. Record the matching keyword(s).
-5. Keep the RFP only if the match is meaningful to the actual solicitation.
+2. Read the available description/scope of work/category.
+3. Read any listed NAICS code(s), NIGP code(s), and UNSPSC code(s) and their descriptions, when the portal provides them.
+4. Compare all of the above (title, description, scope, category, and codes) against the approved keyword list.
+5. Record the matching keyword(s) and any supporting NAICS/NIGP/UNSPSC code(s).
+6. Assess whether the bid is actually workable under the approved filters — i.e. the underlying scope of work is genuinely IT services/staff augmentation/staffing/IT-related, not just a keyword appearing in passing.
+7. Keep the RFP only if the match is meaningful to the actual solicitation and the workability assessment supports it.
 
 ### Step 5 — Verify the RFP
 
@@ -147,6 +155,7 @@ Before saving:
 - Capture agency/organization when available.
 - Capture location when available.
 - Capture the matched keyword(s).
+- Capture the NAICS/NIGP/UNSPSC code(s) when available, and note if they supported the relevance decision.
 - Capture the official source URL.
 - Capture the retrieval date/time.
 - Do not fabricate missing fields. Use `Not available` where appropriate.
@@ -188,6 +197,7 @@ rfp name: RFP Title
 - **Location:** ...
 - **Solicitation Type:** RFP
 - **Matched Keywords:** ...
+- **NAICS / NIGP / UNSPSC Codes:** ... (or `Not available`)
 - **Source URL:** ...
 - **Retrieved:** ... (timezone)
 
@@ -197,7 +207,7 @@ rfp name: RFP Title
 
 ## Relevance
 
-Explain briefly why the RFP matched one or more approved keywords.
+Explain briefly why the RFP matched one or more approved keywords and/or NAICS/NIGP/UNSPSC codes (not just the title), and why the underlying scope of work is workable under the approved filters.
 
 ## Source
 
