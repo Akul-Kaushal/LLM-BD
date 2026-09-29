@@ -21,3 +21,8 @@ These 5 entries were accessible in a real browser but confirmed to have no RFP/p
 - https://www.jaggaer.com/ — JAGGAER's corporate marketing homepage for its Source-to-Pay software product, not an agency's solicitation listing.
 - https://www.ethics.state.tx.us/filinginfo/1295/ — Texas Ethics Commission's Form 1295 (Certificate of Interested Parties) filing tool; a compliance-disclosure system, not a bid/RFP listing.
 - https://www.daytonohio.gov/MyAccount/Profile — redirects to a generic CivicPlus personal-account sign-in page (`MyAccount/Profile`), unrelated to procurement or bids.
+
+Reclassified from `url_reachable.md` on 2026-09-29 (accessible, no RFP functionality):
+
+- https://guest.nasa.gov/ - NASA guest account login/registration page; no procurement listing.
+- https://apps.nasa.gov/nvdb/vendorSearch - redirects (302) to generic nasa.gov/apps; no solicitation listing.
