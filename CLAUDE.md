@@ -40,6 +40,36 @@ Use **case-insensitive matching**. Preserve the official wording when recording 
 2. IT Staff Augmentation
 3. Staffing
 4. Information Technology
+5. Project Management
+6. Program Management
+7. Data Entry, Scanning, Records and Document Related Services
+8. HR Services
+9. Asset Management
+10. Consulting Servicse
+11. Management Services
+12. Networking Services
+13. Professional, Consulting, Administrative and Management Support Services
+14. Clerical Services
+15. Administrative Staffing
+16. Clerical Staffing
+17. Data Research and Analytics
+18. Programming Services, Computer (Including Mobile Device Applications)
+19. Computer Network Consulting
+20. IT Management Services
+21. Data Processing Services
+22. IT Security Management Services
+23. Business and Corporate Management Consulting Services
+24. Scientific and Technical Consulting
+25. Office Administrative Services
+26. Employment Agencies
+27. Permanent Employment Services
+28. Executive Search Services
+29. Temporary Help Services
+30. Employment Agency and Search Firm Services
+31. Business Support Services
+32. Software Maintenance/Support
+33. Data Processing Services
+34. All Other Business Support Services
 ```
 
 ### Keyword Matching Rules
