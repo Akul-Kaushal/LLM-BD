@@ -134,3 +134,91 @@ Scope: this file only covers the portion of `url_reachable.md` reviewed in the 2
 - https://www.kalcounty.com/ (redirects to kalcounty.gov; site loads but no bid/RFP page was successfully located via its search)
 - https://www.bidexpress.com/businesses/85766/home?agency=true (agency page loads; the "Solicitations" nav link did not successfully load a listing, and a guessed `/solicitations` path 404'd)
 - https://www.ptcvendorportal.com/ (homepage shows a public "Latest RFxs" link, but clicking it did not navigate to any content in this session)
+
+## 2026-09-28 scheduled session (84 URL batch)
+
+No JS-rendering browser was available this session (headless Chromium could not be made to trust the environment's proxy TLS certificate); all checks below used `curl`/`WebFetch` against raw server responses. No login was attempted anywhere despite `URL/State Portals Credentials.xlsx` existing.
+
+### Login / SSO / registration wall
+
+- http://newhavenhousing.cobblestonesystems.com/gateway/Login.aspx (Cobblestone "Welcome & Sign In" wall, no RFP content pre-auth)
+- https://bids.wyomingmi.gov/Bid/SpecDownload/2236?fromLogin=1 (redirects to a Home/Login sign-in page, no bid content viewable without auth)
+- https://app01.jaggaer.com/apps/Router/SupplierLogin?CustOrg=CalState... (Jaggaer supplier-login wall)
+- https://app01.jaggaer.com/apps/Router/SupplierLogin?CustOrg=DASIowa... (Jaggaer supplier-login wall)
+- https://app01.jaggaer.com/apps/Router/SupplierLogin?CustOrg=FSU... (Jaggaer supplier-login wall)
+- https://app01.jaggaer.com/apps/Router/SupplierLogin?CustOrg=MDAndersonPS (Jaggaer supplier-login wall)
+- https://app01.jaggaer.com/apps/Router/SupplierLogin?CustOrg=StateOfNewMexico (Jaggaer supplier-login wall)
+- https://app01.jaggaer.com/apps/Router/SupplierLogin?CustOrg=TAMU (Jaggaer supplier-login wall)
+- https://app01.jaggaer.com/apps/Router/SupplierLogin?CustOrg=TriC (Jaggaer supplier-login wall)
+- https://app01.jaggaer.com/apps/Router/SupplierLogin?CustOrg=UConnFullSuite... (Jaggaer supplier-login wall)
+- https://app01.jaggaer.com/apps/Router/SupplierLogin?CustOrg=UIdaho (Jaggaer supplier-login wall)
+- https://app01.jaggaer.com/apps/Router/SupplierLogin?CustOrg=URI (Jaggaer supplier-login wall; all 10 Jaggaer SupplierLogin URLs above render the identical login shell verbatim — platform-wide pattern, only representative bodies diffed in full)
+- https://arbuy.arkansas.gov/bso/view/login/login.xhtml (JSF login form)
+- https://baltimorecity.diversitycompliance.com/FrontPage/VendorMain.asp?XID=2708 ("You've been logged out", redirects to login)
+- https://bidportal.ksu.edu/Module/Tenders/en/Vendor/Dashboard/70f4d5cf-dabf-47c6-a618-3522733a7088 (resolves to Kansas State Bid Portal login form)
+- https://brazosbid.ionwave.net/Login.aspx (IonWave login/registration page)
+- https://certification-app.sbsd.virginia.gov/boLogin (vendor-certification sign-in page)
+- https://cityofbonitasprings.procureware.com/login (403 Forbidden on the login path itself)
+- https://claytonk12ga.bonfirehub.com/login (redirects through account-flows.bonfirehub.com Kratos login flow, terminates 403 Forbidden)
+- https://cob.procureware.com/login (403 Forbidden)
+- https://contracts-marioncountygcc.msappproxy.net/gateway/Login.aspx (Contract Insight ASP.NET Login.aspx form)
+- https://davenport.ionwave.net/Login.aspx (IonWave login form)
+- https://dir.my.site.com/BidStamp/VIS_CustomLogin (Salesforce BidStamp vendor login, Visualforce ViewState form)
+- https://dmschools.ionwave.net/Vendor/VendorHome.aspx (redirects to Login.aspx)
+- https://douglascountypurchasing.ionwave.net/Login.aspx (IonWave login form)
+- https://ejbs.fa.us6.oraclecloud.com/supplierPortal/faces/FndOverview?fndGlobalItemNodeId=itemNode_supplier_portal_supplier_portal (Oracle IDCS OAuth/SSO sign-in)
+- https://emma.maryland.gov/page.aspx/en/usr/login?ReturnUrl=%2fpage.aspx%2fen%2fbuy%2fhomepage (URL is itself the login page)
+- https://esupplier.erp.delaware.gov/psc/fn92pdesup/SUPPLIER/ERP/c/SCP_PUBLIC_MENU_FL.SCP_PUB_REG_CMP_FL.GBL (F5 BIG-IP APM access-denied, errorcode=19)
+- https://esupplier.sonomacounty.ca.gov/psc/FN92PRD_9/SUPPLIER/ERP/c/NUI_FRAMEWORK.PT_LANDINGPAGE.GBL?Page=PT_LANDINGPAGE&Action=H (PeopleSoft sign-in error page)
+- https://fayetteville-ar.ionwave.net/Login.aspx (IonWave login wall)
+- https://fayetteville-ga.ionwave.net/Login.aspx (IonWave login wall)
+- https://financials.ok.gov/psc/SOKLFP1DS/SUPPLIER/ERP/c/NUI_FRAMEWORK.PT_LANDINGPAGE.GBL? (PeopleSoft sign-in required)
+- https://fms-prd.ps.sc.edu/psc/FPRD/SUPPLIER/ERP/c/NUI_FRAMEWORK.PT_LANDINGPAGE.GBL? (USC CAS Central Authentication Service login page)
+- https://fscm.teamworks.georgia.gov/psc/supp/SUPPLIER/ERP/c/NUI_FRAMEWORK.PT_LANDINGPAGE.GBL? (Team Georgia Marketplace PeopleSoft sign-in required)
+- https://gccisd.ionwave.net/ (auto-redirects to Login.aspx)
+- https://goodbuy.ionwave.net/Login.aspx (explicit login page)
+- https://guest.nasa.gov/ (NASA Guest account login/registration wall)
+- https://ha.internationaleprocurement.com/ ("Housing Agency Marketplace" requires Email/Password login)
+- https://hamiltoncountyohio.gob2g.com/?TN=hamiltoncountyohio (JS-only login portal shell — Log In/Staff Log In/Register only, "Please enable javascript")
+- https://hcpss.bonfirehub.com/login (307 redirect to account.bonfirehub.com central SSO login flow)
+- http://norta.procureware.com/login (403 Forbidden on the login path)
+
+### CAPTCHA / bot-check
+
+- https://apps.das.nh.gov/bidscontracts/bids.aspx (HTTP 403 "Access Denied" WAF)
+- https://apps.ideal-logic.com/uopcs (JS SPA shell with Cloudflare Turnstile script; no listing content in raw HTML)
+- https://bgs.vermont.gov/purchasing (HTTP 403 "ERROR: The request could not be satisfied" — Akamai-style WAF block)
+- https://comet-fs.ci.minneapolis.mn.us/psc/supplier/SUPPLIER/ERP/c/NUI_FRAMEWORK.PT_LANDINGPAGE.GBL?&lp=ERP.SUPPLIER.EP_COSP_PUBLIC_HOME_FL (Cloudflare "Just a moment..." interstitial, HTTP 403)
+- https://govwhitepapers.com/?utm_source=GovEvents&utm_medium=NavBar (HTTP 429 "Vercel Security Checkpoint" bot-check, confirmed on retry)
+- https://guest.supplier.systems.state.mn.us/psc/fmssupap/SUPPLIER/ERP/c/NUI_FRAMEWORK.PT_LANDINGPAGE.GBL (redirects to Radware "Captcha Page" at validate.perfdrive.com)
+- https://cityofbonitasprings.procureware.com/ (403 Forbidden, likely WAF/bot block — same as its /login path)
+- https://dmschools.procureware.com/Companies?t=Info (HTTP 403 Forbidden)
+
+### Dynamic/JS-only content (could not render without a JS-capable browser)
+
+- https://bouldercounty.bonfirehub.com/portal/?tab=openOpportunities (underscore.js client-side template shell, no server-rendered/embedded project JSON)
+- https://ccsd.bonfirehub.com/portal/?tab=openOpportunities (same underscore.js template shell pattern)
+- https://ci-lubbock-tx.bonfirehub.com/portal/?tab=openOpportunities (same underscore.js template shell pattern, sampled to confirm family)
+- https://comalisd.bonfirehub.com/portal/?tab=openOpportunities (Angular SPA shell, ng-app, config JSON only)
+- https://cookcountyhealth.bonfirehub.com/portal (same Angular SPA shell pattern)
+- https://cookcountyil.bonfirehub.com/portal (same Angular SPA shell pattern)
+- https://daviefl.bonfirehub.com/portal (same Angular SPA shell pattern)
+- https://dfwairport.bonfirehub.com/portal/?tab=openOpportunities (same Angular SPA shell pattern, no opportunity strings even with tab param)
+- https://ecsd.bonfirehub.ca/portal/?tab=openOpportunities (AngularJS SPA shell; only feature-flag JSON and hidden empty-state template)
+- https://eprocurement.esmsolutions.com/resetpassword?Token=935c91e0-3b71-4706-88a0-2cc4dc6d5da7 (Angular `<purchase-app>` shell, loading spinner only; password-reset link, not a listing)
+- https://fairfaxcounty.bonfirehub.com/portal/?tab=openOpportunities (same Angular SPA shell pattern)
+- https://flyri.com/riac/procurement/ ("Active RFPs" table is AJAX-loaded ninja_table plus a React/OpenGov iframe; no listing text in raw HTML)
+- https://fortworthtexas.bonfirehub.com/portal/?tab=openOpportunities (same Angular SPA shell pattern)
+- https://biddingo.com/soundtransit (Angular SPA shell, `<app-root>`, no server-rendered opportunity content)
+
+Note: the Bonfire (`bonfirehub.com`/`.ca`) platform was assumed server-rendered based on earlier sessions' `?tab=openOpportunities` pages, but this batch found it inconsistent — some instances (bernco, bgca, ggbhtd, habc, homesa — see `easily_scrapable.md`) expose a public JSON API (`/PublicPortal/getOpenPublicOpportunitiesSectionData`) that returns real data even though the initial HTML is a JS template shell, while others tested here returned no accessible data at all through that same approach. Treat each Bonfire subdomain individually rather than assuming platform-wide behavior.
+
+### Broken / error page
+
+- https://apps.nasa.gov/nvdb/vendorSearch (resolves to an unrelated NASA marketing page, not the vendor search tool)
+- https://baltimorecounty.prismcompliance.com/ (loads but is only a vendor-registration/compliance hub with no solicitation listing on the page itself)
+- http://www.scsk12.org/procurement/bids (raw PHP parse error on `bids.php` line 80)
+- https://hacp.org/profile/business-developmentommincorp-com/ (HTTP 404, unrelated WordPress author-archive page)
+- https://health.maryland.gov/procumnt/pages/procopps.aspx?utm_source=chatgpt.com (HTTP 404 "File Not Found")
+
+Scope note: this session covered 84 of the 184 remaining unclassified `url_reachable.md` entries (in file order), sorted immediately after each visit rather than in a separate pass, per policy. The other ~100 unclassified reachable URLs remain for a future session.
