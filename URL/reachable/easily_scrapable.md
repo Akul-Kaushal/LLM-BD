@@ -125,3 +125,18 @@ Scope: this file only covers the portion of `url_reachable.md` reviewed in the 2
 - https://purchasing.iu.edu/resources/forms/table.html (redirects to `procurement.iu.edu`; "Public Bid Postings" page and linked PDF are public)
 - https://www.kcsdschools.net/dept/finance/procurement (loads without login; currently shows only contact info, no listings)
 - https://www.voa.va.gov/default.aspx?PageId=1 (VA's public acquisition/industry-day resource hub — not a bid list, but loads freely)
+
+## 2026-09-29 session (84 URL batch)
+
+- https://bidopportunities.chugachelectric.com/ (2 open bids (RFB 26-26 Janitorial, RFP 26-20 Cooper Lake Siphon); no keyword match)
+- https://ebs.pnnl.gov/advertised.aspx (6 advertised solicitations (construction/goods/A-E); no keyword match)
+- https://garwoodnj.govoffice3.com/index.asp?SEC=2E0FA122-5AAF-4709-8370-F01AB70B1579&pri=0 (legal/solar RFP-RFQ notices; no keyword match)
+- https://dhr.alabama.gov/announcements/ (social-service notices; no keyword match)
+- https://apps.cupertino.org/details/756 (RFQ CIP-25RFQ02 Staff Augmentation (Public Works/CIP, awarded, not IT); approved keywords not met, not saved)
+- https://cammnet.octa.net/ (listing loaded, 0 items (migrated to OpenGov))
+- https://flyri.com/riac/procurement/ (listing loaded, empty (moved to OpenGov))
+- https://bids01.jaggaer.com/apps/Router/PublicEvent?CustomerOrg=SUNY&FromBranded=true (8 public bids; only CRM for Donor Relations RFI (no literal keyword text); no match)
+- https://bids01.jaggaer.com/apps/Router/PublicEvent?CustomerOrg=Georgia&FromBranded=true (5 public bids; no keyword match)
+- https://bids01.jaggaer.com/apps/Router/PublicEvent?CustomerOrg=UTSA&FromBranded=true (3 public bids; no keyword match)
+- https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=GIT (2 public bids; no keyword match)
+- https://arbuy.arkansas.gov/bso/view/login/login.xhtml (public Open Bids search link available; no keyword listing extracted)

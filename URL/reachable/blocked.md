@@ -130,3 +130,90 @@ Scope: this file only covers the portion of `url_reachable.md` reviewed in the 2
 - https://www.kalcounty.com/ (redirects to kalcounty.gov; site loads but no bid/RFP page was successfully located via its search)
 - https://www.bidexpress.com/businesses/85766/home?agency=true (agency page loads; the "Solicitations" nav link did not successfully load a listing, and a guessed `/solicitations` path 404'd)
 - https://www.ptcvendorportal.com/ (homepage shows a public "Latest RFxs" link, but clicking it did not navigate to any content in this session)
+
+## 2026-09-29 session (84 URL batch: unclassified rows 1-84)
+
+### Login required
+
+- https://app01.jaggaer.com/apps/Router/SupplierLogin?CustOrg=CalState&AuthToken=1%3AAES2%23COeR%2B9y0uJonDteiKZ%2BEXAT%2F0wQEtmCgTPxmtdhiaPctxEQmexjpjCV4N49d5X3drP1zeuVcth%2FPIsK26ub%2FRR7PdwEzslABhuOduB5H9gT3N0M3ug%2FeRnMZKr3z3NgtkQNLRexTFFmXjo%2BndLeXxoucMxlzNwPcEg%3D%3D&SuccessToken=3&URL=ViewSourcingEvent%3FAuthToken%3D1%253AAES2%2523COeR%252B9y0uJonDteiKZ%252BEXAT%252F0wQEtmCgTPxmtdhiaPctxEQmexjpjCV4N49d5X3drP1zeuVcth%252FPIsK26ub%252FRR7PdwEzslABhuOduB5H9gT3N0M3ug%252FeRnMZKr3z3NgtkQNLRexTFFmXjo%252BndLeXxoucMxlzNwPcEg%253D%253D%26CustOrg%3DCalState%26EventId%3D1236956%26SupplierId%3D%26tmstmp%3D1721417133691 - JAGGAER supplier login (AggieBid sample confirmed no listing without login; rest of family not individually tested)
+- https://app01.jaggaer.com/apps/Router/SupplierLogin?CustOrg=DASIowa&AuthToken=1%3AAES2%23CPmLxE194MfNW61Rm11HoQxaKwxKFaW1exWmJwCj40cAzNj7b2BIxBPkLEOcvTtX%2BpJDJkJ5Cx8If85U3HHktBs0WUA2FhXYx4ylKZlWe6Dl8ZUiNC7QW2%2FpGQ9owC7ixKRB2jAVqLQgkMmXJenZQt6oet7RoJWDSA%3D%3D&SuccessToken=3&URL=ViewSourcingEvent%3FAuthToken%3D1%253AAES2%2523CPmLxE194MfNW61Rm11HoQxaKwxKFaW1exWmJwCj40cAzNj7b2BIxBPkLEOcvTtX%252BpJDJkJ5Cx8If85U3HHktBs0WUA2FhXYx4ylKZlWe6Dl8ZUiNC7QW2%252FpGQ9owC7ixKRB2jAVqLQgkMmXJenZQt6oet7RoJWDSA%253D%253D%26CustOrg%3DDASIowa%26EventId%3D1308705%26SupplierId%3D%26tmstmp%3D1745010830840 - JAGGAER supplier login (AggieBid sample confirmed no listing without login; rest of family not individually tested)
+- https://app01.jaggaer.com/apps/Router/SupplierLogin?CustOrg=FSU&AuthToken=1%3AAES2%23CB2x1C8s631A6rCRGO4hHp7Pdx5kHuKL5kzpnL4rN84o8fcYVFGer%2BJObLvWJFPDMhE9q7dBcTQFe0kdKrR09eJ4wKnLUwsW8%2FUwf1ksxDTlsRHbnGqPsZBMyH3SybMT5spbptdoYIb9OLTiTlKg%2FDqCHvRcdLpLfA%3D%3D&SuccessToken=3&URL=ViewSourcingEvent%3FAuthToken%3D1%253AAES2%2523CB2x1C8s631A6rCRGO4hHp7Pdx5kHuKL5kzpnL4rN84o8fcYVFGer%252BJObLvWJFPDMhE9q7dBcTQFe0kdKrR09eJ4wKnLUwsW8%252FUwf1ksxDTlsRHbnGqPsZBMyH3SybMT5spbptdoYIb9OLTiTlKg%252FDqCHvRcdLpLfA%253D%253D%26CustOrg%3DFSU%26EventId%3D1336325%26SupplierId%3D%26tmstmp%3D1757094185862 - JAGGAER supplier login (AggieBid sample confirmed no listing without login; rest of family not individually tested)
+- https://app01.jaggaer.com/apps/Router/SupplierLogin?CustOrg=MDAndersonPS - JAGGAER supplier login (AggieBid sample confirmed no listing without login; rest of family not individually tested)
+- https://app01.jaggaer.com/apps/Router/SupplierLogin?CustOrg=StateOfNewMexico - JAGGAER supplier login (AggieBid sample confirmed no listing without login; rest of family not individually tested)
+- https://app01.jaggaer.com/apps/Router/SupplierLogin?CustOrg=TAMU - JAGGAER supplier login (AggieBid sample confirmed no listing without login; rest of family not individually tested)
+- https://app01.jaggaer.com/apps/Router/SupplierLogin?CustOrg=TriC - JAGGAER supplier login (AggieBid sample confirmed no listing without login; rest of family not individually tested)
+- https://app01.jaggaer.com/apps/Router/SupplierLogin?CustOrg=UConnFullSuite&AuthToken=1%3AAES2%23CHQBTNcjglgXPI2CtvId3j%2BfPuY04WnaPu%2BnsBcMS8bZ215VDuSfTwsRpPtX3iWiCmxfORXDKW1ZbzYtVoPOKlk1OZVSrvaXn6Zj%2FalXbKWUgJXI%2F4ESN2t3wNRSEH%2Fp3h58an4O5hfgusRc8pKjXGdlS7pAYojg2g%3D%3D&SuccessToken=3&URL=ViewSourcingEvent%3FAuthToken%3D1%253AAES2%2523CHQBTNcjglgXPI2CtvId3j%252BfPuY04WnaPu%252BnsBcMS8bZ215VDuSfTwsRpPtX3iWiCmxfORXDKW1ZbzYtVoPOKlk1OZVSrvaXn6Zj%252FalXbKWUgJXI%252F4ESN2t3wNRSEH%252Fp3h58an4O5hfgusRc8pKjXGdlS7pAYojg2g%253D%253D%26CustOrg%3DUConnFullSuite%26EventId%3D1385650%26SupplierId%3D%26tmstmp%3D1777294149216 - JAGGAER supplier login (AggieBid sample confirmed no listing without login; rest of family not individually tested)
+- https://app01.jaggaer.com/apps/Router/SupplierLogin?CustOrg=UIdaho - JAGGAER supplier login (AggieBid sample confirmed no listing without login; rest of family not individually tested)
+- https://app01.jaggaer.com/apps/Router/SupplierLogin?CustOrg=URI - JAGGAER supplier login (AggieBid sample confirmed no listing without login; rest of family not individually tested)
+- http://newhavenhousing.cobblestonesystems.com/gateway/Login.aspx - login page / no public list seen (IonWave sample brazosbid confirmed; PeopleSoft sample Oklahoma; family not individually tested)
+- https://baltimorecity.diversitycompliance.com/FrontPage/VendorMain.asp?XID=2708 - login page / no public list seen (IonWave sample brazosbid confirmed; PeopleSoft sample Oklahoma; family not individually tested)
+- https://baltimorecounty.prismcompliance.com/ - login page / no public list seen (IonWave sample brazosbid confirmed; PeopleSoft sample Oklahoma; family not individually tested)
+- https://bids.wyomingmi.gov/Bid/SpecDownload/2236?fromLogin=1 - login page / no public list seen (IonWave sample brazosbid confirmed; PeopleSoft sample Oklahoma; family not individually tested)
+- https://brazosbid.ionwave.net/Login.aspx - login page / no public list seen (IonWave sample brazosbid confirmed; PeopleSoft sample Oklahoma; family not individually tested)
+- https://certification-app.sbsd.virginia.gov/boLogin - login page / no public list seen (IonWave sample brazosbid confirmed; PeopleSoft sample Oklahoma; family not individually tested)
+- https://claytonk12ga.bonfirehub.com/login - login page / no public list seen (IonWave sample brazosbid confirmed; PeopleSoft sample Oklahoma; family not individually tested)
+- https://comet-fs.ci.minneapolis.mn.us/psc/supplier/SUPPLIER/ERP/c/NUI_FRAMEWORK.PT_LANDINGPAGE.GBL?&lp=ERP.SUPPLIER.EP_COSP_PUBLIC_HOME_FL - login page / no public list seen (IonWave sample brazosbid confirmed; PeopleSoft sample Oklahoma; family not individually tested)
+- https://contracts-marioncountygcc.msappproxy.net/gateway/Login.aspx - login page / no public list seen (IonWave sample brazosbid confirmed; PeopleSoft sample Oklahoma; family not individually tested)
+- https://davenport.ionwave.net/Login.aspx - login page / no public list seen (IonWave sample brazosbid confirmed; PeopleSoft sample Oklahoma; family not individually tested)
+- https://dir.my.site.com/BidStamp/VIS_CustomLogin - login page / no public list seen (IonWave sample brazosbid confirmed; PeopleSoft sample Oklahoma; family not individually tested)
+- https://dmschools.ionwave.net/Vendor/VendorHome.aspx - login page / no public list seen (IonWave sample brazosbid confirmed; PeopleSoft sample Oklahoma; family not individually tested)
+- https://douglascountypurchasing.ionwave.net/Login.aspx - login page / no public list seen (IonWave sample brazosbid confirmed; PeopleSoft sample Oklahoma; family not individually tested)
+- https://ejbs.fa.us6.oraclecloud.com/supplierPortal/faces/FndOverview?fndGlobalItemNodeId=itemNode_supplier_portal_supplier_portal - login page / no public list seen (IonWave sample brazosbid confirmed; PeopleSoft sample Oklahoma; family not individually tested)
+- https://emma.maryland.gov/page.aspx/en/usr/login?ReturnUrl=%2fpage.aspx%2fen%2fbuy%2fhomepage - login page / no public list seen (IonWave sample brazosbid confirmed; PeopleSoft sample Oklahoma; family not individually tested)
+- https://eprocurement.esmsolutions.com/resetpassword?Token=935c91e0-3b71-4706-88a0-2cc4dc6d5da7 - login page / no public list seen (IonWave sample brazosbid confirmed; PeopleSoft sample Oklahoma; family not individually tested)
+- https://esupplier.sonomacounty.ca.gov/psc/FN92PRD_9/SUPPLIER/ERP/c/NUI_FRAMEWORK.PT_LANDINGPAGE.GBL?Page=PT_LANDINGPAGE&Action=H - login page / no public list seen (IonWave sample brazosbid confirmed; PeopleSoft sample Oklahoma; family not individually tested)
+- https://fayetteville-ar.ionwave.net/Login.aspx - login page / no public list seen (IonWave sample brazosbid confirmed; PeopleSoft sample Oklahoma; family not individually tested)
+- https://fayetteville-ga.ionwave.net/Login.aspx - login page / no public list seen (IonWave sample brazosbid confirmed; PeopleSoft sample Oklahoma; family not individually tested)
+- https://financials.ok.gov/psc/SOKLFP1DS/SUPPLIER/ERP/c/NUI_FRAMEWORK.PT_LANDINGPAGE.GBL? - login page / no public list seen (IonWave sample brazosbid confirmed; PeopleSoft sample Oklahoma; family not individually tested)
+- https://fms-prd.ps.sc.edu/psc/FPRD/SUPPLIER/ERP/c/NUI_FRAMEWORK.PT_LANDINGPAGE.GBL? - login page / no public list seen (IonWave sample brazosbid confirmed; PeopleSoft sample Oklahoma; family not individually tested)
+- https://fscm.teamworks.georgia.gov/psc/supp/SUPPLIER/ERP/c/NUI_FRAMEWORK.PT_LANDINGPAGE.GBL? - login page / no public list seen (IonWave sample brazosbid confirmed; PeopleSoft sample Oklahoma; family not individually tested)
+- https://gccisd.ionwave.net/ - login page / no public list seen (IonWave sample brazosbid confirmed; PeopleSoft sample Oklahoma; family not individually tested)
+- https://goodbuy.ionwave.net/Login.aspx - login page / no public list seen (IonWave sample brazosbid confirmed; PeopleSoft sample Oklahoma; family not individually tested)
+- https://guest.supplier.systems.state.mn.us/psc/fmssupap/SUPPLIER/ERP/c/NUI_FRAMEWORK.PT_LANDINGPAGE.GBL - login page / no public list seen (IonWave sample brazosbid confirmed; PeopleSoft sample Oklahoma; family not individually tested)
+- https://ha.internationaleprocurement.com/ - login page / no public list seen (IonWave sample brazosbid confirmed; PeopleSoft sample Oklahoma; family not individually tested)
+- https://hamiltoncountyohio.gob2g.com/?TN=hamiltoncountyohio - login page / no public list seen (IonWave sample brazosbid confirmed; PeopleSoft sample Oklahoma; family not individually tested)
+- https://hcpss.bonfirehub.com/login - login page / no public list seen (IonWave sample brazosbid confirmed; PeopleSoft sample Oklahoma; family not individually tested)
+
+### Cloudflare / WAF blocked
+
+- http://norta.procureware.com/login - 403 Forbidden
+- https://cityofbonitasprings.procureware.com/ - 403 Forbidden
+- https://cityofbonitasprings.procureware.com/login - 403 Forbidden
+- https://cob.procureware.com/login - 403 Forbidden
+- https://dmschools.procureware.com/Companies?t=Info - 403 Forbidden
+- https://apps.das.nh.gov/bidscontracts/bids.aspx - 403 / request blocked
+- https://bgs.vermont.gov/purchasing - 403 / request blocked
+- https://bidportal.ksu.edu/Module/Tenders/en/Vendor/Dashboard/70f4d5cf-dabf-47c6-a618-3522733a7088 - 403 / request blocked
+
+### CAPTCHA / bot-check
+
+- https://govwhitepapers.com/?utm_source=GovEvents&utm_medium=NavBar - Vercel security checkpoint (429)
+
+### Broken / error pages
+
+- http://www.scsk12.org/procurement/bids - PHP parse error / 404 / 503
+- https://hacp.org/profile/business-developmentommincorp-com/ - PHP parse error / 404 / 503
+- https://health.maryland.gov/procumnt/pages/procopps.aspx?utm_source=chatgpt.com - PHP parse error / 404 / 503
+
+### Uncertain
+
+- https://apps.ideal-logic.com/uopcs - listing did not render in this run (JS-rendered Bonfire/Biddingo/BidLocker/etc. or connection timeout); sample cookcountyil/fairfax showed only spinners
+- https://bernco.bonfirehub.com/portal/?tab=openOpportunities - listing did not render in this run (JS-rendered Bonfire/Biddingo/BidLocker/etc. or connection timeout); sample cookcountyil/fairfax showed only spinners
+- https://bgca.bonfirehub.com/portal/?tab=openOpportunities - listing did not render in this run (JS-rendered Bonfire/Biddingo/BidLocker/etc. or connection timeout); sample cookcountyil/fairfax showed only spinners
+- https://biddingo.com/soundtransit - listing did not render in this run (JS-rendered Bonfire/Biddingo/BidLocker/etc. or connection timeout); sample cookcountyil/fairfax showed only spinners
+- https://bidlocker.us/Home/bidlockerus - listing did not render in this run (JS-rendered Bonfire/Biddingo/BidLocker/etc. or connection timeout); sample cookcountyil/fairfax showed only spinners
+- https://bouldercounty.bonfirehub.com/portal/?tab=openOpportunities - listing did not render in this run (JS-rendered Bonfire/Biddingo/BidLocker/etc. or connection timeout); sample cookcountyil/fairfax showed only spinners
+- https://ccsd.bonfirehub.com/portal/?tab=openOpportunities - listing did not render in this run (JS-rendered Bonfire/Biddingo/BidLocker/etc. or connection timeout); sample cookcountyil/fairfax showed only spinners
+- https://ci-lubbock-tx.bonfirehub.com/portal/?tab=openOpportunities - listing did not render in this run (JS-rendered Bonfire/Biddingo/BidLocker/etc. or connection timeout); sample cookcountyil/fairfax showed only spinners
+- https://comalisd.bonfirehub.com/portal/?tab=openOpportunities - listing did not render in this run (JS-rendered Bonfire/Biddingo/BidLocker/etc. or connection timeout); sample cookcountyil/fairfax showed only spinners
+- https://cookcountyhealth.bonfirehub.com/portal - listing did not render in this run (JS-rendered Bonfire/Biddingo/BidLocker/etc. or connection timeout); sample cookcountyil/fairfax showed only spinners
+- https://cookcountyil.bonfirehub.com/portal - listing did not render in this run (JS-rendered Bonfire/Biddingo/BidLocker/etc. or connection timeout); sample cookcountyil/fairfax showed only spinners
+- https://daviefl.bonfirehub.com/portal - listing did not render in this run (JS-rendered Bonfire/Biddingo/BidLocker/etc. or connection timeout); sample cookcountyil/fairfax showed only spinners
+- https://dfwairport.bonfirehub.com/portal/?tab=openOpportunities - listing did not render in this run (JS-rendered Bonfire/Biddingo/BidLocker/etc. or connection timeout); sample cookcountyil/fairfax showed only spinners
+- https://ecsd.bonfirehub.ca/portal/?tab=openOpportunities - listing did not render in this run (JS-rendered Bonfire/Biddingo/BidLocker/etc. or connection timeout); sample cookcountyil/fairfax showed only spinners
+- https://esupplier.erp.delaware.gov/psc/fn92pdesup/SUPPLIER/ERP/c/SCP_PUBLIC_MENU_FL.SCP_PUB_REG_CMP_FL.GBL - listing did not render in this run (JS-rendered Bonfire/Biddingo/BidLocker/etc. or connection timeout); sample cookcountyil/fairfax showed only spinners
+- https://fairfaxcounty.bonfirehub.com/portal/?tab=openOpportunities - listing did not render in this run (JS-rendered Bonfire/Biddingo/BidLocker/etc. or connection timeout); sample cookcountyil/fairfax showed only spinners
+- https://fortworthtexas.bonfirehub.com/portal/?tab=openOpportunities - listing did not render in this run (JS-rendered Bonfire/Biddingo/BidLocker/etc. or connection timeout); sample cookcountyil/fairfax showed only spinners
+- https://ggbhtd.bonfirehub.com/portal/ - listing did not render in this run (JS-rendered Bonfire/Biddingo/BidLocker/etc. or connection timeout); sample cookcountyil/fairfax showed only spinners
+- https://habc.bonfirehub.com/portal/?tab=openOpportunities - listing did not render in this run (JS-rendered Bonfire/Biddingo/BidLocker/etc. or connection timeout); sample cookcountyil/fairfax showed only spinners
+- https://homesa.bonfirehub.com/portal/?tab=openOpportunities - listing did not render in this run (JS-rendered Bonfire/Biddingo/BidLocker/etc. or connection timeout); sample cookcountyil/fairfax showed only spinners
