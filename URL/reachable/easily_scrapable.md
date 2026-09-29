@@ -143,3 +143,18 @@ Scope: this file only covers the portion of `url_reachable.md` reviewed in the 2
 - https://ggbhtd.bonfirehub.com/portal/ (public portal + AJAX endpoint returns real JSON, currently 0 open projects, no login required)
 - https://habc.bonfirehub.com/portal/?tab=openOpportunities (public JSON endpoint returns 5 real open opportunities without login; no approved-keyword match in visible titles — e.g. "Website Maintenance and Support" is not itself an approved keyword)
 - https://homesa.bonfirehub.com/portal/?tab=openOpportunities (public JSON endpoint returns 6 real open opportunities without login; no approved-keyword match — facilities/legal listings)
+
+## 2026-09-29 session 2 (Bonfire/IonWave batch, browser-verified)
+
+- https://iehp.bonfirehub.com/portal (open public opportunities table readable (e.g. 26-07372 Claims Editing Software - not a keyword match))
+- https://jeffersoncitymo.bonfirehub.com/portal/?tab=openOpportunities (public Bonfire listing readable without login; no approved-keyword match)
+- https://lonestar.ionwave.net/SourcingEvents.aspx?SourceType=1 (7 open bids readable; none matched keywords)
+- https://mdcourts.bonfirehub.com/portal/?tab=openOpportunities (public Bonfire listing readable without login; no approved-keyword match)
+- https://mdstad.bonfirehub.com/portal/?tab=openOpportunities (public Bonfire listing readable without login; no approved-keyword match)
+- https://menv.bonfirehub.com/portal/?tab=openOpportunities (public Bonfire listing readable without login; no approved-keyword match)
+- https://mps.bonfirehub.com/portal/?tab=openOpportunities (public grid readable; RFP 1180 Contingent Staffing Services saved (detail page behind Cloudflare))
+- https://mwrd.bonfirehub.com/portal/?tab=openOpportunities (public Bonfire listing readable without login; no approved-keyword match)
+- https://nait.bonfirehub.ca/portal/?tab=openOpportunities (public Bonfire listing readable without login; no approved-keyword match)
+- https://nsc.bonfirehub.ca/portal/?tab=openOpportunities (public Bonfire listing readable without login; no approved-keyword match)
+- https://pennbid.bonfirehub.com/portal/?tab=openOpportunities (PennBid public grid readable; no directly relevant IT/staffing match)
+- https://pinalcountyaz.bonfirehub.com/portal (public Bonfire listing readable without login; no approved-keyword match)
