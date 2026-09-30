@@ -114,6 +114,50 @@ Scope: this file only covers the portion of `url_reachable.md` reviewed in the 2
   - https://vendors.planetbids.com/portal/77636/portal-home
   - https://www.beaconbid.com/solicitations/city-of-houston/121f4067-fb3a-4d30-85b9-ea6a6cafe989/contingent-labor-services-all-categories?token=supplier-login.ObiU4vtGsc_vRNVc-a87JReydRqhQP07ozrco4z95xclrg1KaW517ezRNB5QzTvK8dS9z_wfmREHNc6qRuGr-uHTYI229n9X2AhzK2_xmpo1LIlDsnrcN9YzPY9tkrWfy3EN_v3vttW09t3yqiaBnArwIvYLa3JnzE4G9B1giu5p7FuxEHf2iImOzrCy7TDIptzKNwKUivDO0G3DxgJ4Yz43Iz6gCzrsPGyOdGXCJV9Qg29rKw2IN4_Nw5d1czIABi6VfJW2RJtyEc02dHo1amlJHrAnTsWOtrQ8zz6lolxc5u8OanNPWUJnmTMDrOPoY-3_mtuNxCYeyzX2seLpWEfkAtq1AbX1X_Xb-492Ng&eid=bc055432-0873-482a-98b8-0490d2821dc8 (URL itself contains a supplier-login token; not individually tested)
 
+## 2026-09-30 re-check: OpenGov platform now Cloudflare-gated (previously easily scrapable)
+
+The entire `procurement.opengov.com` platform, previously recorded in `easily_scrapable.md` as loading a public "Projects" grid without login, now serves a Cloudflare "Performing security verification" interstitial with an interactive "Verify you are human" (Turnstile) checkbox on every portal tested. Confirmed individually on 7 of the 27 URLs below (aurorail, baltimorecountymd, bft, bloomingtonin, brevardschools, cityoftampa, rtd-denver) after a 3-5s wait each; per policy no CAPTCHA was clicked/solved. The remaining 20 share the identical `procurement.opengov.com/portal/<slug>` pattern and identical Cloudflare challenge markup, so they are recorded here as a confirmed family rather than individually re-tested. Moved from `easily_scrapable.md` to here on 2026-09-30.
+
+- https://procurement.opengov.com/portal/aurorail
+- https://procurement.opengov.com/portal/baltimorecountymd
+- https://procurement.opengov.com/portal/bft
+- https://procurement.opengov.com/portal/bloomingtonin
+- https://procurement.opengov.com/portal/brevardschools
+- https://procurement.opengov.com/portal/cheyennecity
+- https://procurement.opengov.com/portal/cityofbradenton
+- https://procurement.opengov.com/portal/cityofedinburg
+- https://procurement.opengov.com/portal/cityofhomestead
+- https://procurement.opengov.com/portal/cityofnsb
+- https://procurement.opengov.com/portal/cityoftampa
+- https://procurement.opengov.com/portal/clevelandoh
+- https://procurement.opengov.com/portal/co-hidalgo-tx
+- https://procurement.opengov.com/portal/lompoc
+- https://procurement.opengov.com/portal/morenovalley
+- https://procurement.opengov.com/portal/oak-brook
+- https://procurement.opengov.com/portal/pasadena
+- https://procurement.opengov.com/portal/pinoleca
+- https://procurement.opengov.com/portal/rtd-denver
+- https://procurement.opengov.com/portal/saccounty
+- https://procurement.opengov.com/portal/santacruzca
+- https://procurement.opengov.com/portal/smcgov
+- https://procurement.opengov.com/portal/stpete
+- https://procurement.opengov.com/portal/tucson-az
+- https://procurement.opengov.com/portal/tuolumnecountyca
+- https://procurement.opengov.com/portal/wheatridgeco
+- https://www.frederickcountymd.gov/1116/Open-Bids---Current-Solicitations (redirects to `procurement.opengov.com/portal/frederickcountymd`, same Cloudflare challenge)
+
+## 2026-09-30 re-check: reclassified from easily_scrapable.md (login page, not a listing)
+
+- https://vrapp.vendorregistry.com/Account/LogOn (generic Vendor Registry login page, no bid-listing content of its own; the platform's actual public listing is `https://vrapp.vendorregistry.com/Bids/View/BidsList?BuyerId=...`, which remains in `easily_scrapable.md`)
+
+## 2026-09-30 re-check: reachable URL now blocked (moved from easily_scrapable.md)
+
+- https://www.laramiecountywy.gov/Request-for-Proposals (previously redirected to a public BidNet Direct listing; now returns an Akamai edge "Access Denied" block on this server, reference #18.6102817...)
+
+## 2026-09-30 re-check: additional platform now Cloudflare-gated
+
+- https://uiebid.ionwave.net/SourcingEvents.aspx?SourceType=1 (previously recorded in `easily_scrapable.md` as a public IonWave grid; on 2026-09-30 re-check it now serves a Cloudflare "Performing security verification" interstitial instead of the bid list — moved here)
+
 ## Cloudflare / WAF blocked
 
 - https://www.cdta.org/node/15813/register ("Access denied")

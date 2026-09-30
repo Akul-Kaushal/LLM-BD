@@ -2,18 +2,18 @@
 
 ## 2026-09-16 session (30 URL batch)
 
-- http://njstart.gov/ (redirects to NJSTART public portal; public open-bid/advanced-search pages load without login; one new qualifying finding saved on 2026-09-26 — see `Source/Scraped/2026-09-26_NJ-T2314-NJKiDS-Application-Maintenance-Support.md`)
+- http://njstart.gov/ (redirects to NJSTART public portal; public open-bid/advanced-search pages load without login; re-checked 2026-09-30 with deeper filter — all 25 currently open state-issued bids reviewed by title; 3 previously-saved records confirmed still open/unchanged (T3161 Labor Tax Integrated Solution, T2314 NJKiDS Application Maintenance, T1628 Motor Vehicle Inspection Maintenance System); three new qualifying items saved: `Source/Scraped/2026-09-30_NJ-T1128-Record-Storage-and-Retrieval.md`, `Source/Scraped/2026-09-30_NJ-T2775-Data-Entry-Verification-Services.md`, `Source/Scraped/2026-09-30_NJ-T1932-Contracted-System-Administrator-CSOC.md`; "T3009 BPU Clean Energy Program Administration and Management Services" considered but scope is energy-incentive-program administration, not IT/staffing-related, so not saved; note the `?q=` keyword-search parameter returned 0 results for every term tried (information technology/staffing/consulting/software) even though matching bids exist in the unfiltered listing — the keyword search appears broken this session, so the full unfiltered 25-item open list was reviewed by title instead)
 - http://www.mncppc.org/register.html (redirects to M-NCPPC vendor resources; public procurement guidance and current IFB/RFP links load without login; no qualifying listing saved from this URL itself)
-- https://a856-cityrecord.nyc.gov/ (public City Record procurement notices load without login; two qualifying NYC RFP records saved on 2026-09-16; re-checked 2026-09-26, only 2 current Solicitation-type notices site-wide, neither matched the approved keyword list)
+- https://a856-cityrecord.nyc.gov/ (public City Record procurement notices load without login; two qualifying NYC RFP records saved on 2026-09-16; re-checked 2026-09-26, only 2 current Solicitation-type notices site-wide, neither matched the approved keyword list; re-checked again 2026-09-30 — the Advanced Search keyword filter did not appear to actually filter results this session (see `blocked.md`-style note in the scratchpad stuck-URL list / final report); browsed the unfiltered "Procurement" section's ~20 most recent notices instead (mostly COMPASS/DYCD program Awards and an Intent-to-Award sole-source notice), no approved-keyword match found among them)
 - https://acwd.bonfirehub.com/portal/?tab=openOpportunities (public Bonfire portal; only secondary-search evidence was available for IT-related items during this pass, so no file saved)
 - https://alamedahsg.bonfirehub.com/portal/?tab=openOpportunities (public Bonfire portal; no approved-keyword official listing saved in this pass)
 - https://alexandriava.bonfirehub.com/portal/?tab=openOpportunities (public Bonfire portal; secondary mirrors showed an IT-related RFP, but no directly verifiable official detail was available in this pass)
 - https://algonquincollege.bonfirehub.ca/portal/?tab=openOpportunities (public Bonfire portal; no current approved-keyword official listing saved in this pass)
 - https://alleghenycounty.bonfirehub.com/portal/?tab=openOpportunities (public Bonfire portal; secondary mirrors showed an IT-related RFP, but no directly verifiable official detail was available in this pass)
-- https://alohaebuys.hawaii.gov/bso/view/login/login.xhtml (public Aloha eBUYS advanced-search/open-bids pages load without login; one qualifying IT services record saved on 2026-09-16; re-checked 2026-09-26, 28 open bids reviewed, none matched the approved keyword list)
+- https://alohaebuys.hawaii.gov/bso/view/login/login.xhtml (public Aloha eBUYS advanced-search/open-bids pages load without login; one qualifying IT services record saved on 2026-09-16; re-checked 2026-09-26, 28 open bids reviewed, none matched the approved keyword list; re-checked again 2026-09-30 with deeper title+description+NIGP-code review — one new qualifying finding saved: `Source/Scraped/2026-09-30_HI-DOH-CDPHPD-Website-Editor.md` (NIGP 920-40 Programming Services, Computer); reviewed page 1 (25 of 28); page 2 (3 more records) not reached this session — pagination via `&start=` param did not work)
 
-- https://www.scsk12.org/procurement/bids (redirects/alternate public Bids & RFPs page at `https://www.scsk12.org/procurement25/?PN=232`; public listings load without login; relevant staffing RFP saved on 2026-09-16; re-checked 2026-09-26, 8 open bids reviewed, none matched the approved keyword list)
-- https://newhavenhousing.cobblestonesystems.com/gateway/Login.aspx (public CobbleStone solicitation/news pages are visible without login; reviewed visible current/recent solicitations on 2026-09-16 and found no approved-keyword match)
+- https://www.scsk12.org/procurement/bids (redirects/alternate public Bids & RFPs page at `https://www.scsk12.org/procurement25/?PN=232`; public listings load without login; relevant staffing RFP saved on 2026-09-16; re-checked 2026-09-26, 8 open bids reviewed, none matched the approved keyword list; re-checked again 2026-09-30 — "Expiring Soon" list shows the same kind of food-service/facilities/cafeteria bids with no approved-keyword match; no new items)
+- https://newhavenhousing.cobblestonesystems.com/gateway/Login.aspx (public CobbleStone solicitation/news pages are visible without login; reviewed visible current/recent solicitations on 2026-09-16 and found no approved-keyword match; re-checked 2026-09-30 — the public "News" bid-tabulation list shows only construction/moving/renovation notices through June 2026, no approved-keyword match)
 
 Scope: this file only covers the portion of `url_reachable.md` reviewed in the 2026-09-11 re-scrape session (rows 193 through the end of the list, ~168 URLs after the 5 not-applicable reclassifications). Rows 1–192 were scraped in an earlier session and are not classified here, except for the 5 rows added below on 2026-09-14.
 
@@ -21,109 +21,77 @@ Scope: this file only covers the portion of `url_reachable.md` reviewed in the 2
 
 ## 2026-09-14 session (5 URLs sampled from rows 1-192)
 
-- https://njstart.gov/ (redirects to `njstart.gov/bso/`; public "Open Bids" grid at `/bso/view/search/external/advancedSearchBid.xhtml?openBids=true`, 24 open state-issued bids — no keyword matches this pass)
-- https://arkansas.ionwave.net/ (public "Current Bid Opportunities" grid at `/SourcingEvents.aspx?SourceType=1`, 10 open bids — only IT-adjacent item was an RFI, not an RFP)
-- https://caleprocure.ca.gov/pages/Events-BS3/event-search.aspx (public Event Search, no login; keyword search works well — see `Source/Scraped/2026-09-14_RFP1053_Behavioral-Support-Staffing.md`)
-- https://camisvr.co.la.ca.us/LACoBids/BidLookUp/OpenBidList (public keyword search across 223 open solicitations; IT-related hits found were RFSQ/IFB types, not RFP)
-- https://a856-cityrecord.nyc.gov/ (public citywide notice search, no login; very high volume — 3000+ hits for "Information Technology" mixing Notices/Awards/Solicitations; later 2026-09-16 batch saved two relevant NYC RFP records)
-
-## OpenGov portals (public "Projects" grid, no login needed)
-
-- https://procurement.opengov.com/portal/aurorail
-- https://procurement.opengov.com/portal/baltimorecountymd
-- https://procurement.opengov.com/portal/bft
-- https://procurement.opengov.com/portal/bloomingtonin
-- https://procurement.opengov.com/portal/brevardschools
-- https://procurement.opengov.com/portal/cheyennecity
-- https://procurement.opengov.com/portal/cityofbradenton
-- https://procurement.opengov.com/portal/cityofedinburg
-- https://procurement.opengov.com/portal/cityofhomestead
-- https://procurement.opengov.com/portal/cityofnsb
-- https://procurement.opengov.com/portal/cityoftampa
-- https://procurement.opengov.com/portal/clevelandoh
-- https://procurement.opengov.com/portal/co-hidalgo-tx
-- https://procurement.opengov.com/portal/lompoc
-- https://procurement.opengov.com/portal/morenovalley
-- https://procurement.opengov.com/portal/oak-brook
-- https://procurement.opengov.com/portal/pasadena
-- https://procurement.opengov.com/portal/pinoleca
-- https://procurement.opengov.com/portal/rtd-denver
-- https://procurement.opengov.com/portal/saccounty
-- https://procurement.opengov.com/portal/santacruzca
-- https://procurement.opengov.com/portal/smcgov
-- https://procurement.opengov.com/portal/stpete
-- https://procurement.opengov.com/portal/tucson-az
-- https://procurement.opengov.com/portal/tuolumnecountyca
-- https://procurement.opengov.com/portal/wheatridgeco
-- https://www.frederickcountymd.gov/1116/Open-Bids---Current-Solicitations (redirects to `procurement.opengov.com/portal/frederickcountymd`)
+- https://njstart.gov/ (redirects to `njstart.gov/bso/`; public "Open Bids" grid at `/bso/view/search/external/advancedSearchBid.xhtml?openBids=true`, 24 open state-issued bids — no keyword matches this pass; duplicate of the njstart.gov row above — see its 2026-09-30 re-check note for the current deeper-filter results)
+- https://arkansas.ionwave.net/ (public "Current Bid Opportunities" grid at `/SourcingEvents.aspx?SourceType=1`, now 9 open bids — re-checked 2026-09-30 with deeper filter; one qualifying RFI saved: `Source/Scraped/2026-09-30_CentralArkansasWater-26-19-Customer-Self-Service-Platform.md` (Customer Self-Service Platform Solution — per CLAUDE.md objective, RFI-type IT solicitations are in scope for confirming portal structure and are recorded when they represent genuine current opportunities); rest are watershed planning, occupational health, printing, construction — no match)
+- https://caleprocure.ca.gov/pages/Events-BS3/event-search.aspx (public Event Search, no login; keyword search works well — see `Source/Scraped/2026-09-14_RFP1053_Behavioral-Support-Staffing.md`; re-checked 2026-09-30 — "staffing" keyword search returned 5 Posted results; RFP1053 confirmed still open/unchanged; two new qualifying IFBs saved: `Source/Scraped/2026-09-30_CA-07A6466-Engineering-Maintenance-Staffing-Services.md` and `Source/Scraped/2026-09-30_CA-26-10083-1-LFS-Staffing-Contract-Rebid.md`; "Infectious Disease Specialist Services" and "Accounting Auditing Expertise and Technical Advisory Services" also matched the staffing keyword search (likely via description text) but their titles don't show it and detail pages weren't reachable this session, so not saved without confirmation; "information technology" keyword search not completed this session given time)
+- https://camisvr.co.la.ca.us/LACoBids/BidLookUp/OpenBidList (public keyword search across 223 open solicitations; IT-related hits found were RFSQ/IFB types, not RFP; re-checked 2026-09-30 with deeper search — "staffing" search (5 hits) and "information technology" search (2 hits) both had genuine full-description matches; three new qualifying findings saved: `Source/Scraped/2026-09-30_LACounty-RRCC-RFSQ-19-003-As-Needed-Temporary-Staffing.md`, `Source/Scraped/2026-09-30_LACounty-DBH76-As-Needed-Temporary-Personnel-Services.md`, `Source/Scraped/2026-09-30_LACounty-ITS-I10604-S-Enterprise-Services-Master-Agreement.md`; per CLAUDE.md objective, RFSQ/IFB types are in scope alongside RFP)
+- https://a856-cityrecord.nyc.gov/ (public citywide notice search, no login; very high volume — 3000+ hits for "Information Technology" mixing Notices/Awards/Solicitations; later 2026-09-16 batch saved two relevant NYC RFP records; duplicate of the cityrecord.nyc.gov row above — see its 2026-09-30 re-check note)
 
 ## Bonfire / Euna Supplier Network portals (public "Open Opportunities" tab)
 
-- https://sccpss.bonfirehub.com/portal/?tab=openOpportunities
-- https://scottsdaleaz.bonfirehub.com/portal/?tab=openOpportunities
-- https://smctd.bonfirehub.com/portal/?tab=openOpportunities (specific opportunity linked from the original URL was closed, but the portal's open-opportunities tab is public)
-- https://strathcona.bonfirehub.ca/portal/?tab=openOpportunities (passes a brief Cloudflare check automatically)
-- https://tohowater.bonfirehub.com/portal/?tab=openOpportunities
-- https://transitchicago.bonfirehub.com/portal/?tab=openOpportunities
-- https://ventura.bonfirehub.com/portal/?tab=openOpportunities
-- https://waukeshacounty.bonfirehub.com/portal/?tab=openOpportunities (specific opportunity linked from the original URL was closed, but the portal's open-opportunities tab is public)
-- https://wrd.bonfirehub.com/portal/?tab=openOpportunities
-- https://yvr.bonfirehub.ca/portal/?tab=openOpportunities
+- https://sccpss.bonfirehub.com/portal/?tab=openOpportunities (re-checked 2026-09-30 with description/title review of all 4 open items — Document Destruction, CMR Services, Lawn Care, Design Professional Services — no approved-keyword match)
+- https://scottsdaleaz.bonfirehub.com/portal/?tab=openOpportunities (re-checked 2026-09-30 — 5 open RFPs/RFSQ reviewed: diving/aerator maintenance, municipal financial advisor, CMAR waterline, green waste, benefits/EAP — no approved-keyword match)
+- https://smctd.bonfirehub.com/portal/?tab=openOpportunities (specific opportunity linked from the original URL was closed, but the portal's open-opportunities tab is public; re-checked 2026-09-30, "There are no open projects at this time")
+- https://strathcona.bonfirehub.ca/portal/?tab=openOpportunities (passes a brief Cloudflare check automatically; re-checked 2026-09-30 — 8 open items reviewed; "26.0059 GIS Consulting and Contracting Services" is a possible title-level match on "Scientific and Technical Consulting" but the detail page (opportunities/111181) is Cloudflare-blocked so scope could not be confirmed — not saved without confirmation; "26.0019 Integration Platform as a Service (iPaaS) Solution" title alone does not match an approved keyword; rest are infrastructure/fleet/roofing/concrete, no match)
+- https://tohowater.bonfirehub.com/portal/?tab=openOpportunities (re-checked 2026-09-30 — 5 open IFB/RFQu items: surplus property, water main, catering, dewatering system, lift station equipment — no approved-keyword match)
+- https://transitchicago.bonfirehub.com/portal/?tab=openOpportunities (re-checked 2026-09-30 — 9 open items reviewed; two are tagged Department "IT & Professional Services" (Duplo collator IFB, armored car service RFP) but that is only an internal department label — actual scope is office-equipment purchase and cash-transport/security services, not IT/staffing work, so not a workable match; rest are facilities/rolling-stock/construction, no match)
+- https://ventura.bonfirehub.com/portal/?tab=openOpportunities (re-checked 2026-09-30 — 5 open items: youth crisis unit, culvert replacement, janitorial, specialty pharmacy, mental health rehab center — no approved-keyword match)
+- https://waukeshacounty.bonfirehub.com/portal/?tab=openOpportunities (specific opportunity linked from the original URL was closed, but the portal's open-opportunities tab is public; re-checked 2026-09-30 — UPS/battery maintenance, snow removal — no approved-keyword match)
+- https://wrd.bonfirehub.com/portal/?tab=openOpportunities (re-checked 2026-09-30 — only open item is "RFP-26-008: Drought Contingency Plan" — no approved-keyword match)
+- https://yvr.bonfirehub.ca/portal/?tab=openOpportunities (re-checked 2026-09-30, "There are no open projects at this time")
 
 ## IonWave portals (public "Current Bid Opportunities" grid)
 
-- https://sawsbid.ionwave.net/SourcingEvents.aspx?SourceType=1
-- https://stillwater.ionwave.net/SourcingEvents.aspx?SourceType=1
-- https://tarrantcountytx.ionwave.net/SourcingEvents.aspx?SourceType=1
-- https://uiebid.ionwave.net/SourcingEvents.aspx?SourceType=1
+- https://sawsbid.ionwave.net/SourcingEvents.aspx?SourceType=1 (re-checked 2026-09-30 — 11 open items reviewed; two qualifying software licensing/support bids saved: `Source/Scraped/2026-09-30_SAWS-26-1310-Oracle-License-Renewal-DIR.md` and `Source/Scraped/2026-09-30_SAWS-26-1459-Adobe-Software-Licenses.md`; detail pages became Cloudflare-gated partway through the session so full scope/codes could not be confirmed beyond the listing row; rest of the 11 items are pipe/valve/truck/equipment purchases, no match)
+- https://stillwater.ionwave.net/SourcingEvents.aspx?SourceType=1 (re-checked 2026-09-30 — 3 open IFBs: steel transmission poles, pavement management, pump station — no approved-keyword match)
+- https://tarrantcountytx.ionwave.net/SourcingEvents.aspx?SourceType=1 (re-checked 2026-09-30 — 12 open items: hazmat response, grease-trap cleaning, transmission repair, refrigerants, glass repair, paper recycling, SWAT rifles, road base, trailers, brine systems, plows — no approved-keyword match)
+- https://uiebid.ionwave.net/SourcingEvents.aspx?SourceType=1 (re-check 2026-09-30 found the portal now serves a Cloudflare "Performing security verification" interstitial instead of the bid grid; not bypassed per policy — see `blocked.md`)
 
 ## ProcureWare portals (public "Bids" grid)
 
-- https://snoco.procureware.com/Bids
-- https://stamfordct.procureware.com/home (real path: `/Bids`, 1183 records)
+- https://snoco.procureware.com/Bids (re-checked 2026-09-30 — reviewed first 50 of 1745 records with title/category-code review; two qualifying IT systems RFPs saved: `Source/Scraped/2026-09-30_Snohomish-RFP-26-0804BC-Training-Management-System.md` and `Source/Scraped/2026-09-30_Snohomish-RFP-26-0726BC-C-Online-Database-Reporting.md`; also noted but not saved: Cancelled "RFP-26-0791BC AI Governance Solution" and Cancelled "RFP-25-0606BC Web Design, Hosting and CMS Solution" (NIGP 920-series codes, would have matched, but status is Cancelled so not an active opportunity); narrative descriptions are gated behind vendor login, only titles/categories reviewed; remaining ~1695 records not exhaustively paged through given volume)
+- https://stamfordct.procureware.com/home (real path: `/Bids`, 1187 records; re-checked 2026-09-30 — reviewed page 1 of ~24 pages (no working keyword filter found); previously-saved "2027.0084 City RFP - Enterprise SIP Trunking, PSTN, Numbering and 911 Services" still open (see `Source/Scraped/2026-09-11_City-of-Stamford-Enterprise-SIP-Trunking-RFP.md`); no other approved-keyword match on page 1; remaining pages not exhaustively reviewed given volume)
 
 ## PeopleSoft / Oracle Cloud supplier portals (public bidding-opportunity tile/grid)
 
-- https://supplier.miamidade.gov/ ("Bidding Opportunities" tile → public grid)
-- https://supplier.sok.ks.gov/psc/sokfsprdsup/SUPPLIER/ERP/c/SCP_PUBLIC_MENU_FL.SCP_PUB_BID_CMP_FL.GBL (42-row public grid)
-- https://supplier.wmata.com/psc/supplier/SUPPLIER/ERP/c/NUI_FRAMEWORK.PT_LANDINGPAGE.GBL? ("Active Solicitations" search, public)
-- https://vss.ky.gov/vssprod-ext/Advantage4 ("View Published Solicitations" tile → public grid, 20+ records)
+- https://supplier.miamidade.gov/ ("Bidding Opportunities" tile → public grid; re-checked 2026-09-30 — all 20 open events reviewed by title/category; one qualifying software-licensing ITB saved: `Source/Scraped/2026-09-30_MiamiDade-ITB0000011-Adobe-Software-Licenses.md`; "Out of State Vehicle Registration Information" (Clerk of Courts) considered but detail page did not open and title alone is too ambiguous to confirm a match; rest are goods/construction/consulting-unrelated, no match)
+- https://supplier.sok.ks.gov/psc/sokfsprdsup/SUPPLIER/ERP/c/SCP_PUBLIC_MENU_FL.SCP_PUB_BID_CMP_FL.GBL (42-row public grid; re-checked 2026-09-30 — all 33 currently-open events reviewed by title/description; three qualifying software/program-management systems saved: `Source/Scraped/2026-09-30_KS-EVT0010884-HR-Information-System.md`, `Source/Scraped/2026-09-30_KS-EVT0010915-Grant-Program-Manager.md`, `Source/Scraped/2026-09-30_KS-EVT0010854-Learning-Management-System.md`; "Online Marketplace Services" and "Student Loan Billing & Collection Support Services" considered but titles too ambiguous/off-scope to confirm a match without further description (login-gated); rest are unrelated goods/services)
+- https://supplier.wmata.com/psc/supplier/SUPPLIER/ERP/c/NUI_FRAMEWORK.PT_LANDINGPAGE.GBL? ("Active Solicitations" search, public; the homepage tile itself only opens via a blocked new-tab JS call, but its target page `https://supplier.wmata.com/psc/supplier_1/SUPPLIER/ERP/c/AUC_MANAGE_BIDS.AUC_RESP_INQ_AUC.GBL` loads directly and is public; re-checked 2026-09-30 — all 16 open/posted solicitations reviewed by title and (for plausible ones) full line-item detail; five qualifying IT systems RFPs saved: `Source/Scraped/2026-09-30_WMATA-0000010924-Counsel-Practice-Management-Software.md`, `Source/Scraped/2026-09-30_WMATA-0000010922-Emergency-Management-Platform.md`, `Source/Scraped/2026-09-30_WMATA-0000010927-ProWatch-System-Maintenance-Renewal.md`, `Source/Scraped/2026-09-30_WMATA-0000010941-MetroAccess-Fare-Collection-System.md`, `Source/Scraped/2026-09-30_WMATA-0000010918-MTPD-Background-Investigation-System.md`; "WMATA Consulting Service Agreement - GSA" considered but scope not specified beyond option years, too ambiguous to confirm a match; rest are non-IT goods/construction/maintenance, no match)
+- https://vss.ky.gov/vssprod-ext/Advantage4 ("View Published Solicitations" tile → public grid, 20+ records; re-checked 2026-09-30 — all 40 currently-published solicitations reviewed across both pages by title/category; previously-saved "Network Security Software, Hardware, and Services" (RFB-758-2700000066-4) still open, same details, no update needed; two new qualifying items saved: `Source/Scraped/2026-09-30_KY-RFI-SAS-Enterprise-Financial-Reporting-Discovery.md` and `Source/Scraped/2026-09-30_KY-ACA-Recruiting-Coordinator.md`; rest are construction/equipment/medical/legal/education, no match; full narrative descriptions are login-gated on this portal)
 - https://vss.ky.gov/vssprod-ext/Advantage4?openDoc=openDoc&DocumentCode=RFP&DepartmentCode=415&DocumentID=2600000199&DocumentVersNo=2&targetView=ammendHistoryView&Destination=pSolication (same portal)
 
 ## Periscope / BidSync family (public advanced-search results)
 
-- https://sdbuynet.sandiegocounty.gov/page.aspx/en/usr/login (via "View Solicitations" link → public search/results, though downloading docs needs login)
-- https://www.bidbuy.illinois.gov/bso/external/vendor/regSummary.sdo?vendorId=NZdPl7Rvv_Oq&mode=initial&dateTime=1694627292171 (real search at `/bso/view/search/external/advancedSearchBid.xhtml?openBids=true`, 156 results)
-- https://www.commbuys.com/bso/view/login/login.xhtml (real search at same path, 971 open bids; top-of-page keyword search box works well)
+- https://sdbuynet.sandiegocounty.gov/page.aspx/en/usr/login (via "View Solicitations" link → public search/results, though downloading docs needs login; re-checked 2026-09-30 — reviewed first page (15) of 150+ open records sorted by begin date, plus keyword searches for "staffing" and "information technology" (both returned only historical Closed/Cancelled/Awarded hits, no currently-Open match); one qualifying HR-services RFP saved from the open listing: `Source/Scraped/2026-09-30_SanDiegoCounty-RFP-Classification-Compensation-Survey.md`; remaining ~135 open records across pages 2-7 not exhaustively paged given volume)
+- https://www.bidbuy.illinois.gov/bso/external/vendor/regSummary.sdo?vendorId=NZdPl7Rvv_Oq&mode=initial&dateTime=1694627292171 (real search at `/bso/view/search/external/advancedSearchBid.xhtml?openBids=true`, now 175 open results; re-checked 2026-09-30 — reviewed page 1 of 7 (25 records) with full detail-page verification (including NIGP codes) for plausible IT/consulting candidates; one qualifying IFB saved: `Source/Scraped/2026-09-30_IL-MET10-Metro-Ethernet-IFB.md` (Metro Ethernet networking IFB, NIGP 838-xx); "Connect IL Implementation Tech Assistance" and "Tollway Technical Assistance Services" checked but are Type Code 55 Amendment/Change-Order notices to existing contracts, not new competitive solicitations, so not saved; remaining ~150 open records across pages 2-7 not exhaustively paged given volume)
+- https://www.commbuys.com/bso/view/login/login.xhtml (real search at same path; re-checked 2026-09-30 — keyword-searched "staffing" (320 hits, reviewed future-dated open items), "information technology" (623 hits, reviewed top page), "ITS87"/"IT Staff Aug" restricted to `openBids=true` (0 currently-open hits — the state's ITS77/ITS87 IT-staff-augmentation category has no active posting right now, though its historical volume is very high); two qualifying items saved: `Source/Scraped/2026-09-30_MA-DYS02CES-Staffing-Services-Educational-Teachers.md` and `Source/Scraped/2026-09-30_MA-RFI-Incident-Prevention-Monitoring-System.md`; "SFY2027 Municipal Public Safety Staffing Program AGF" checked but is a UNSPSC-tagged "Grant Opportunity" (municipal grant application), not a services solicitation, so not saved; given 320-623 total hits per keyword, only the top page of each search and items with a future closing date were reviewed, not the full historical archive)
 
 ## Vendor-registry / small municipal planroom platforms
 
-- https://vrapp.vendorregistry.com/Account/LogOn
-- https://vrapp.vendorregistry.com/Bids/View/BidsList?BuyerId=c5e9d3e7-b8e0-4e36-bcab-8db00d18d769 (public list, currently empty)
-- https://www.cpsk12bids.com/auth/login (via "Public Projects" link, ReproConnect platform)
-- https://www.stlmsdplanroom.com/auth/login (via "Public Projects" link, ReproConnect platform, 15 pages of listings)
-- https://www.rochesterhousing.org/bid-opportunities
-- https://www.northwestmsbids.com/
-- https://www.matawanborough.com/matawan/Bid%20Notices%20and%20Requests%20for%20Proposals/ (long public PDF list)
-- https://www.annapolis.gov/bids.aspx
-- https://www.ahfc.us/about-us/notices/requests-proposals
-- https://www.cityoftulsa.org/government/departments/finance/selling-to-the-city/bid-opportunities-and-results/?t=current
-- https://www.laramiecountywy.gov/Request-for-Proposals (redirects to a public BidNet Direct listing)
-- https://www.bidnetdirect.com/new-jersey/lbha (public open-solicitations tab)
-- https://www.myvendorlink.com/external/login (via "Bids" nav link → public multi-agency search, works well with Title keyword search)
-- https://www.dcwater.com/useful-links (via "DC Water Solicitations" link → public Oracle Cloud solicitations list)
+- https://vrapp.vendorregistry.com/Bids/View/BidsList?BuyerId=c5e9d3e7-b8e0-4e36-bcab-8db00d18d769 (public list, City of Oak Ridge; re-checked 2026-09-30, still "no open solicitations")
+- https://www.cpsk12bids.com/auth/login (via "Public Projects" link at `/projects/public`, ReproConnect platform; re-checked 2026-09-30 — reviewed page 1 of 2 (10 records) with full descriptions; two qualifying networking RFPs saved: `Source/Scraped/2026-09-30_ColumbiaPS-RFP-C-28006-WAN-Fiber-Services-District.md` and `Source/Scraped/2026-09-30_ColumbiaPS-RFP-C-28005-WAN-Fiber-Services-City.md`; "K-12 Virtual School" RFP and "Furniture Standardization Consulting Services" RFP considered but scope is educational-program/facilities, not IT/staffing-related, so not saved; page 2 (older, already-closed items) not reviewed)
+- https://www.stlmsdplanroom.com/auth/login (via "Public Projects" link at `/projects/public`, ReproConnect platform, 16 pages of listings; re-checked 2026-09-30 — reviewed page 1 (10 records); "Single Source-Judge Technical" and "SINGLE SOURCE EXCEL BUSINESS CONCEPTS (Consulting, Service)" are sole-source notices, not competitive solicitations, so not saved; the 3 genuine open competitive items (RFQ S-1580 repairs/drainage, RFQ 1578 snow removal, tunnel prequalification) are non-IT/non-staffing; remaining 15 pages not reviewed given volume)
+- https://www.rochesterhousing.org/bid-opportunities (re-checked 2026-09-30 — 4 current bids reviewed: renovation, electrical, residential/commercial HVAC — no approved-keyword match)
+- https://www.northwestmsbids.com/ (re-checked 2026-09-30 — reviewed page 1 of 6; one qualifying software-system RFP saved: `Source/Scraped/2026-09-30_NWCC-RFP-27-011-02-College-Housing-Management-Software.md`; "Virtual Machines, Host Servers and Backup Systems" RFP would have matched but its bid date (7/20/26) has already passed; rest are construction/facilities, no match)
+- https://www.matawanborough.com/matawan/Bid%20Notices%20and%20Requests%20for%20Proposals/ (long public PDF list; re-checked 2026-09-30 — list re-read in full; "2025 Fair & Open RFP-IT Managed Services" and "2025 Fair & Open RFP-Conflict Labor Atty, Electrician, IT Capital Maintenance Plan" would match "IT Services"/"Information Technology" but both are 2025-dated with no current 2026 status shown and no newer IT-related postings appear at the top of the list, so not saved as current opportunities)
+- https://www.annapolis.gov/bids.aspx (re-checked 2026-09-30, "There are no open bid postings at this time")
+- https://www.ahfc.us/about-us/notices/requests-proposals (re-checked 2026-09-30 — only 1 listed RFP, Snow Removal Contract #27-PHD-001, already at notice-of-intent-to-award stage — no approved-keyword match)
+- https://www.cityoftulsa.org/government/departments/finance/selling-to-the-city/bid-opportunities-and-results/?t=current (re-checked 2026-09-30 — 5 open IFBs reviewed: excavator, auto samplers, exhaust fans, UPS maintenance, wheel loader — "Uninterruptible Power Supply Maintenance" is hardware/electrical equipment maintenance, not software/IT, so no approved-keyword match)
+- https://www.bidnetdirect.com/new-jersey/lbha (public open-solicitations tab; re-checked 2026-09-30 — only 1 open solicitation, "A&E Professional Services Pool RFQ" (architectural/engineering) — no approved-keyword match)
+- https://www.myvendorlink.com/external/login (via "Bids" nav link at `/external/bids` → public multi-agency search across ~115 FL/GA/TN/TX/VA/NC agencies, works well with Status=Active + Title keyword search; re-checked 2026-09-30 — searched "staffing" (1 active hit) and "information technology" (0 active hits); one qualifying staffing solicitation saved: `Source/Scraped/2026-09-30_CareerSourceCF-TS-PS-PY26-Temporary-Staffing-Payroll.md`)
+- https://www.dcwater.com/useful-links (via "DC Water Solicitations" link → public Oracle Cloud solicitations list at `dcwater.com/solicitations`; re-checked 2026-09-30 — reviewed ~20 most recent postings; one qualifying Program Management solicitation saved: `Source/Scraped/2026-09-30_DCWater-DCFA-577-Integrated-Supplier-Services-Program-Management.md`; "Advanced Meter Infrastructure (AMI)" and "Asset Management & Risk Mitigation Optimization Services" would have matched but are already Closed status, so not saved as current opportunities)
 
 ## Large public state/regional search engines (best keyword-search yield)
 
-- https://vendor.purchasingconnection.ca/default.aspx (redirects to `purchasing.alberta.ca` — excellent public search engine, ~20,000 postings, real text-phrase filtering)
-- https://www.instantmarkets.com/home (national aggregator, public keyword quick-filters, e.g. "Staffing" → 248 active results)
-- https://www.txsmartbuy.gov/esbd (Texas statewide ESBD, public, 2,482 pages — keyword search box exists but did not reliably filter during this session)
+- https://vendor.purchasingconnection.ca/default.aspx (redirects to `purchasing.alberta.ca` — excellent public search engine, ~20,520 postings; re-checked 2026-09-30 — the `?keywords=` URL parameter no longer filters results (returns the same unfiltered date-sorted feed) and no in-page text search box was found in this session's rendering; reviewed the ~10 most-recent postings (sorted by date) with full descriptions instead; one qualifying software-licensing RFQ saved: `Source/Scraped/2026-09-30_Alberta-AB-2026-06608-VMWare-vSphere-License.md`; given true keyword filtering could not be confirmed working this session, the bulk of the 20,520 postings were not reviewed)
+- https://www.instantmarkets.com/home (national aggregator, public keyword quick-filters, e.g. "Staffing" → 326 active results; re-checked 2026-09-30 — reviewed page 1 (10 of 326) of the "Staffing" filter; several hits were already-saved records (ACRE IT Contingency Staffing, VA 621I Healthcare Staffing, VA Memphis Lab Staffing, MEMA Shelter Staffing); two new items saved, both with a Data-Accuracy caveat since the aggregator's "Visit Official Site" link is gated behind registration and the primary agency portal was not independently opened: `Source/Scraped/2026-09-30_AZ-DPS-Staffing-Services-Aircraft-Maintenance-Technician.md` and `Source/Scraped/2026-09-30_DenverPS-BD2710-Specialized-Service-Provider-Staffing-Agencies.md`; a few more plausible hits (Henderson County temp EC staffing, Austin 311 temp staffing, Winnipeg 911 staffing-analysis consulting) were seen but not saved given time/verification constraints — worth a follow-up pass; remaining 316 "Staffing" results and other approved keywords not searched given volume)
+- https://www.txsmartbuy.gov/esbd (Texas statewide ESBD, public, 2,482 pages — keyword search box exists but did not reliably filter during this session; re-checked 2026-09-30, keyword search into the "Keyword" combobox followed by Enter again did not visibly filter the agency-list view — same unreliability as before, not re-solved this session; no records reviewed)
 
 ## Other public listings
 
-- https://purchasing.iu.edu/resources/forms/table.html (redirects to `procurement.iu.edu`; "Public Bid Postings" page and linked PDF are public)
-- https://www.kcsdschools.net/dept/finance/procurement (loads without login; currently shows only contact info, no listings)
-- https://www.voa.va.gov/default.aspx?PageId=1 (VA's public acquisition/industry-day resource hub — not a bid list, but loads freely)
+- https://purchasing.iu.edu/resources/forms/table.html (redirects to `procurement.iu.edu`; "Public Bid Postings" page and linked PDF are public; re-check 2026-09-30 could not be completed — the browser tool returned "navigation ... denied or failed" for both this URL and the bare `procurement.iu.edu` domain on 3 attempts this session, while unrelated sites loaded fine; cause unclear, not reclassified since this looks like a tool-side denial rather than a confirmed site-side block — worth retrying in a future session)
+- https://www.kcsdschools.net/dept/finance/procurement (loads without login; re-checked 2026-09-30 — the "Current Solicitations" link now points to a public Google Drive folder listing 2 files: "RFP 2627-001 Demographic Enrollment and Facility Study" and "RFQ 2627-002 Pre-Qualified Roofing Vendors" — no approved-keyword match)
+- https://www.voa.va.gov/default.aspx?PageId=1 (VA's public acquisition/industry-day resource hub — not a bid list, but loads freely; re-checked 2026-09-30, still just program/resource links (T4NG, OIT Industry Day, etc.), no actual solicitation listing to review)
 
 ## 2026-09-28 scheduled session (84 URL batch)
 
