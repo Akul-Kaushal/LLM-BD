@@ -2,7 +2,7 @@
 
 ## 2026-09-16 session (30 URL batch)
 
-- http://njstart.gov/ (redirects to NJSTART public portal; public open-bid/advanced-search pages load without login; one new qualifying finding saved on 2026-09-26 — see `Source/Scraped/2026-09-26_NJ-T2314-NJKiDS-Application-Maintenance-Support.md`)
+- http://njstart.gov/ (redirects to NJSTART public portal; public open-bid/advanced-search pages load without login; re-checked 2026-09-30 with deeper filter — all 25 currently open state-issued bids reviewed by title; 3 previously-saved records confirmed still open/unchanged (T3161 Labor Tax Integrated Solution, T2314 NJKiDS Application Maintenance, T1628 Motor Vehicle Inspection Maintenance System); three new qualifying items saved: `Source/Scraped/2026-09-30_NJ-T1128-Record-Storage-and-Retrieval.md`, `Source/Scraped/2026-09-30_NJ-T2775-Data-Entry-Verification-Services.md`, `Source/Scraped/2026-09-30_NJ-T1932-Contracted-System-Administrator-CSOC.md`; "T3009 BPU Clean Energy Program Administration and Management Services" considered but scope is energy-incentive-program administration, not IT/staffing-related, so not saved; note the `?q=` keyword-search parameter returned 0 results for every term tried (information technology/staffing/consulting/software) even though matching bids exist in the unfiltered listing — the keyword search appears broken this session, so the full unfiltered 25-item open list was reviewed by title instead)
 - http://www.mncppc.org/register.html (redirects to M-NCPPC vendor resources; public procurement guidance and current IFB/RFP links load without login; no qualifying listing saved from this URL itself)
 - https://a856-cityrecord.nyc.gov/ (public City Record procurement notices load without login; two qualifying NYC RFP records saved on 2026-09-16; re-checked 2026-09-26, only 2 current Solicitation-type notices site-wide, neither matched the approved keyword list)
 - https://acwd.bonfirehub.com/portal/?tab=openOpportunities (public Bonfire portal; only secondary-search evidence was available for IT-related items during this pass, so no file saved)
@@ -21,7 +21,7 @@ Scope: this file only covers the portion of `url_reachable.md` reviewed in the 2
 
 ## 2026-09-14 session (5 URLs sampled from rows 1-192)
 
-- https://njstart.gov/ (redirects to `njstart.gov/bso/`; public "Open Bids" grid at `/bso/view/search/external/advancedSearchBid.xhtml?openBids=true`, 24 open state-issued bids — no keyword matches this pass)
+- https://njstart.gov/ (redirects to `njstart.gov/bso/`; public "Open Bids" grid at `/bso/view/search/external/advancedSearchBid.xhtml?openBids=true`, 24 open state-issued bids — no keyword matches this pass; duplicate of the njstart.gov row above — see its 2026-09-30 re-check note for the current deeper-filter results)
 - https://arkansas.ionwave.net/ (public "Current Bid Opportunities" grid at `/SourcingEvents.aspx?SourceType=1`, 10 open bids — only IT-adjacent item was an RFI, not an RFP)
 - https://caleprocure.ca.gov/pages/Events-BS3/event-search.aspx (public Event Search, no login; keyword search works well — see `Source/Scraped/2026-09-14_RFP1053_Behavioral-Support-Staffing.md`)
 - https://camisvr.co.la.ca.us/LACoBids/BidLookUp/OpenBidList (public keyword search across 223 open solicitations; IT-related hits found were RFSQ/IFB types, not RFP)
