@@ -126,3 +126,9 @@ Scope: this file only covers the portion of `url_reachable.md` reviewed in the 2
 - https://nsc.bonfirehub.ca/portal/?tab=openOpportunities (public Bonfire listing readable without login; no approved-keyword match)
 - https://pennbid.bonfirehub.com/portal/?tab=openOpportunities (PennBid public grid readable; no directly relevant IT/staffing match)
 - https://pinalcountyaz.bonfirehub.com/portal (public Bonfire listing readable without login; no approved-keyword match)
+
+## 2026-09-30 scheduled run (85 easily-scrapable URLs re-fetched via curl; headless Chromium timed out on 76 of 85 through the proxy)
+
+- https://www.txsmartbuy.gov/esbd — public listing page 1 re-checked 2026-09-30; one qualifying RFP saved: `Source/Scraped/2026-09-30_TX-TRS-TRS000658-AI-and-IT-Technical-Support-and-Advising-Services-RFP.md`.
+- https://apps.cupertino.org/details/756 — re-confirmed; already saved as `2026-09-28_Cupertino-RFQ-for-Staff-Augmentation-Services.md`.
+- All other URLs returned HTTP 200 but static HTML held no approved-keyword listings (Bonfire/ionwave/Jaggaer portals are JS-rendered shells; no new records saved).
