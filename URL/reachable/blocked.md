@@ -146,6 +146,10 @@ The entire `procurement.opengov.com` platform, previously recorded in `easily_sc
 - https://procurement.opengov.com/portal/wheatridgeco
 - https://www.frederickcountymd.gov/1116/Open-Bids---Current-Solicitations (redirects to `procurement.opengov.com/portal/frederickcountymd`, same Cloudflare challenge)
 
+## 2026-09-30 re-check: reclassified from easily_scrapable.md (login page, not a listing)
+
+- https://vrapp.vendorregistry.com/Account/LogOn (generic Vendor Registry login page, no bid-listing content of its own; the platform's actual public listing is `https://vrapp.vendorregistry.com/Bids/View/BidsList?BuyerId=...`, which remains in `easily_scrapable.md`)
+
 ## 2026-09-30 re-check: additional platform now Cloudflare-gated
 
 - https://uiebid.ionwave.net/SourcingEvents.aspx?SourceType=1 (previously recorded in `easily_scrapable.md` as a public IonWave grid; on 2026-09-30 re-check it now serves a Cloudflare "Performing security verification" interstitial instead of the bid list — moved here)

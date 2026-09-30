@@ -68,10 +68,9 @@ Scope: this file only covers the portion of `url_reachable.md` reviewed in the 2
 
 ## Vendor-registry / small municipal planroom platforms
 
-- https://vrapp.vendorregistry.com/Account/LogOn
-- https://vrapp.vendorregistry.com/Bids/View/BidsList?BuyerId=c5e9d3e7-b8e0-4e36-bcab-8db00d18d769 (public list, currently empty)
-- https://www.cpsk12bids.com/auth/login (via "Public Projects" link, ReproConnect platform)
-- https://www.stlmsdplanroom.com/auth/login (via "Public Projects" link, ReproConnect platform, 15 pages of listings)
+- https://vrapp.vendorregistry.com/Bids/View/BidsList?BuyerId=c5e9d3e7-b8e0-4e36-bcab-8db00d18d769 (public list, City of Oak Ridge; re-checked 2026-09-30, still "no open solicitations")
+- https://www.cpsk12bids.com/auth/login (via "Public Projects" link at `/projects/public`, ReproConnect platform; re-checked 2026-09-30 — reviewed page 1 of 2 (10 records) with full descriptions; two qualifying networking RFPs saved: `Source/Scraped/2026-09-30_ColumbiaPS-RFP-C-28006-WAN-Fiber-Services-District.md` and `Source/Scraped/2026-09-30_ColumbiaPS-RFP-C-28005-WAN-Fiber-Services-City.md`; "K-12 Virtual School" RFP and "Furniture Standardization Consulting Services" RFP considered but scope is educational-program/facilities, not IT/staffing-related, so not saved; page 2 (older, already-closed items) not reviewed)
+- https://www.stlmsdplanroom.com/auth/login (via "Public Projects" link at `/projects/public`, ReproConnect platform, 16 pages of listings; re-checked 2026-09-30 — reviewed page 1 (10 records); "Single Source-Judge Technical" and "SINGLE SOURCE EXCEL BUSINESS CONCEPTS (Consulting, Service)" are sole-source notices, not competitive solicitations, so not saved; the 3 genuine open competitive items (RFQ S-1580 repairs/drainage, RFQ 1578 snow removal, tunnel prequalification) are non-IT/non-staffing; remaining 15 pages not reviewed given volume)
 - https://www.rochesterhousing.org/bid-opportunities
 - https://www.northwestmsbids.com/
 - https://www.matawanborough.com/matawan/Bid%20Notices%20and%20Requests%20for%20Proposals/ (long public PDF list)
