@@ -54,8 +54,8 @@ Scope: this file only covers the portion of `url_reachable.md` reviewed in the 2
 
 ## PeopleSoft / Oracle Cloud supplier portals (public bidding-opportunity tile/grid)
 
-- https://supplier.miamidade.gov/ ("Bidding Opportunities" tile → public grid)
-- https://supplier.sok.ks.gov/psc/sokfsprdsup/SUPPLIER/ERP/c/SCP_PUBLIC_MENU_FL.SCP_PUB_BID_CMP_FL.GBL (42-row public grid)
+- https://supplier.miamidade.gov/ ("Bidding Opportunities" tile → public grid; re-checked 2026-09-30 — all 20 open events reviewed by title/category; one qualifying software-licensing ITB saved: `Source/Scraped/2026-09-30_MiamiDade-ITB0000011-Adobe-Software-Licenses.md`; "Out of State Vehicle Registration Information" (Clerk of Courts) considered but detail page did not open and title alone is too ambiguous to confirm a match; rest are goods/construction/consulting-unrelated, no match)
+- https://supplier.sok.ks.gov/psc/sokfsprdsup/SUPPLIER/ERP/c/SCP_PUBLIC_MENU_FL.SCP_PUB_BID_CMP_FL.GBL (42-row public grid; re-checked 2026-09-30 — all 33 currently-open events reviewed by title/description; three qualifying software/program-management systems saved: `Source/Scraped/2026-09-30_KS-EVT0010884-HR-Information-System.md`, `Source/Scraped/2026-09-30_KS-EVT0010915-Grant-Program-Manager.md`, `Source/Scraped/2026-09-30_KS-EVT0010854-Learning-Management-System.md`; "Online Marketplace Services" and "Student Loan Billing & Collection Support Services" considered but titles too ambiguous/off-scope to confirm a match without further description (login-gated); rest are unrelated goods/services)
 - https://supplier.wmata.com/psc/supplier/SUPPLIER/ERP/c/NUI_FRAMEWORK.PT_LANDINGPAGE.GBL? ("Active Solicitations" search, public)
 - https://vss.ky.gov/vssprod-ext/Advantage4 ("View Published Solicitations" tile → public grid, 20+ records)
 - https://vss.ky.gov/vssprod-ext/Advantage4?openDoc=openDoc&DocumentCode=RFP&DepartmentCode=415&DocumentID=2600000199&DocumentVersNo=2&targetView=ammendHistoryView&Destination=pSolication (same portal)
