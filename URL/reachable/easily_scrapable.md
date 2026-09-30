@@ -27,60 +27,30 @@ Scope: this file only covers the portion of `url_reachable.md` reviewed in the 2
 - https://camisvr.co.la.ca.us/LACoBids/BidLookUp/OpenBidList (public keyword search across 223 open solicitations; IT-related hits found were RFSQ/IFB types, not RFP)
 - https://a856-cityrecord.nyc.gov/ (public citywide notice search, no login; very high volume — 3000+ hits for "Information Technology" mixing Notices/Awards/Solicitations; later 2026-09-16 batch saved two relevant NYC RFP records)
 
-## OpenGov portals (public "Projects" grid, no login needed)
-
-- https://procurement.opengov.com/portal/aurorail
-- https://procurement.opengov.com/portal/baltimorecountymd
-- https://procurement.opengov.com/portal/bft
-- https://procurement.opengov.com/portal/bloomingtonin
-- https://procurement.opengov.com/portal/brevardschools
-- https://procurement.opengov.com/portal/cheyennecity
-- https://procurement.opengov.com/portal/cityofbradenton
-- https://procurement.opengov.com/portal/cityofedinburg
-- https://procurement.opengov.com/portal/cityofhomestead
-- https://procurement.opengov.com/portal/cityofnsb
-- https://procurement.opengov.com/portal/cityoftampa
-- https://procurement.opengov.com/portal/clevelandoh
-- https://procurement.opengov.com/portal/co-hidalgo-tx
-- https://procurement.opengov.com/portal/lompoc
-- https://procurement.opengov.com/portal/morenovalley
-- https://procurement.opengov.com/portal/oak-brook
-- https://procurement.opengov.com/portal/pasadena
-- https://procurement.opengov.com/portal/pinoleca
-- https://procurement.opengov.com/portal/rtd-denver
-- https://procurement.opengov.com/portal/saccounty
-- https://procurement.opengov.com/portal/santacruzca
-- https://procurement.opengov.com/portal/smcgov
-- https://procurement.opengov.com/portal/stpete
-- https://procurement.opengov.com/portal/tucson-az
-- https://procurement.opengov.com/portal/tuolumnecountyca
-- https://procurement.opengov.com/portal/wheatridgeco
-- https://www.frederickcountymd.gov/1116/Open-Bids---Current-Solicitations (redirects to `procurement.opengov.com/portal/frederickcountymd`)
-
 ## Bonfire / Euna Supplier Network portals (public "Open Opportunities" tab)
 
-- https://sccpss.bonfirehub.com/portal/?tab=openOpportunities
-- https://scottsdaleaz.bonfirehub.com/portal/?tab=openOpportunities
-- https://smctd.bonfirehub.com/portal/?tab=openOpportunities (specific opportunity linked from the original URL was closed, but the portal's open-opportunities tab is public)
-- https://strathcona.bonfirehub.ca/portal/?tab=openOpportunities (passes a brief Cloudflare check automatically)
-- https://tohowater.bonfirehub.com/portal/?tab=openOpportunities
-- https://transitchicago.bonfirehub.com/portal/?tab=openOpportunities
-- https://ventura.bonfirehub.com/portal/?tab=openOpportunities
-- https://waukeshacounty.bonfirehub.com/portal/?tab=openOpportunities (specific opportunity linked from the original URL was closed, but the portal's open-opportunities tab is public)
-- https://wrd.bonfirehub.com/portal/?tab=openOpportunities
-- https://yvr.bonfirehub.ca/portal/?tab=openOpportunities
+- https://sccpss.bonfirehub.com/portal/?tab=openOpportunities (re-checked 2026-09-30 with description/title review of all 4 open items — Document Destruction, CMR Services, Lawn Care, Design Professional Services — no approved-keyword match)
+- https://scottsdaleaz.bonfirehub.com/portal/?tab=openOpportunities (re-checked 2026-09-30 — 5 open RFPs/RFSQ reviewed: diving/aerator maintenance, municipal financial advisor, CMAR waterline, green waste, benefits/EAP — no approved-keyword match)
+- https://smctd.bonfirehub.com/portal/?tab=openOpportunities (specific opportunity linked from the original URL was closed, but the portal's open-opportunities tab is public; re-checked 2026-09-30, "There are no open projects at this time")
+- https://strathcona.bonfirehub.ca/portal/?tab=openOpportunities (passes a brief Cloudflare check automatically; re-checked 2026-09-30 — 8 open items reviewed; "26.0059 GIS Consulting and Contracting Services" is a possible title-level match on "Scientific and Technical Consulting" but the detail page (opportunities/111181) is Cloudflare-blocked so scope could not be confirmed — not saved without confirmation; "26.0019 Integration Platform as a Service (iPaaS) Solution" title alone does not match an approved keyword; rest are infrastructure/fleet/roofing/concrete, no match)
+- https://tohowater.bonfirehub.com/portal/?tab=openOpportunities (re-checked 2026-09-30 — 5 open IFB/RFQu items: surplus property, water main, catering, dewatering system, lift station equipment — no approved-keyword match)
+- https://transitchicago.bonfirehub.com/portal/?tab=openOpportunities (re-checked 2026-09-30 — 9 open items reviewed; two are tagged Department "IT & Professional Services" (Duplo collator IFB, armored car service RFP) but that is only an internal department label — actual scope is office-equipment purchase and cash-transport/security services, not IT/staffing work, so not a workable match; rest are facilities/rolling-stock/construction, no match)
+- https://ventura.bonfirehub.com/portal/?tab=openOpportunities (re-checked 2026-09-30 — 5 open items: youth crisis unit, culvert replacement, janitorial, specialty pharmacy, mental health rehab center — no approved-keyword match)
+- https://waukeshacounty.bonfirehub.com/portal/?tab=openOpportunities (specific opportunity linked from the original URL was closed, but the portal's open-opportunities tab is public; re-checked 2026-09-30 — UPS/battery maintenance, snow removal — no approved-keyword match)
+- https://wrd.bonfirehub.com/portal/?tab=openOpportunities (re-checked 2026-09-30 — only open item is "RFP-26-008: Drought Contingency Plan" — no approved-keyword match)
+- https://yvr.bonfirehub.ca/portal/?tab=openOpportunities (re-checked 2026-09-30, "There are no open projects at this time")
 
 ## IonWave portals (public "Current Bid Opportunities" grid)
 
-- https://sawsbid.ionwave.net/SourcingEvents.aspx?SourceType=1
-- https://stillwater.ionwave.net/SourcingEvents.aspx?SourceType=1
-- https://tarrantcountytx.ionwave.net/SourcingEvents.aspx?SourceType=1
-- https://uiebid.ionwave.net/SourcingEvents.aspx?SourceType=1
+- https://sawsbid.ionwave.net/SourcingEvents.aspx?SourceType=1 (re-checked 2026-09-30 — 11 open items reviewed; two qualifying software licensing/support bids saved: `Source/Scraped/2026-09-30_SAWS-26-1310-Oracle-License-Renewal-DIR.md` and `Source/Scraped/2026-09-30_SAWS-26-1459-Adobe-Software-Licenses.md`; detail pages became Cloudflare-gated partway through the session so full scope/codes could not be confirmed beyond the listing row; rest of the 11 items are pipe/valve/truck/equipment purchases, no match)
+- https://stillwater.ionwave.net/SourcingEvents.aspx?SourceType=1 (re-checked 2026-09-30 — 3 open IFBs: steel transmission poles, pavement management, pump station — no approved-keyword match)
+- https://tarrantcountytx.ionwave.net/SourcingEvents.aspx?SourceType=1 (re-checked 2026-09-30 — 12 open items: hazmat response, grease-trap cleaning, transmission repair, refrigerants, glass repair, paper recycling, SWAT rifles, road base, trailers, brine systems, plows — no approved-keyword match)
+- https://uiebid.ionwave.net/SourcingEvents.aspx?SourceType=1 (re-check 2026-09-30 found the portal now serves a Cloudflare "Performing security verification" interstitial instead of the bid grid; not bypassed per policy — see `blocked.md`)
 
 ## ProcureWare portals (public "Bids" grid)
 
-- https://snoco.procureware.com/Bids
-- https://stamfordct.procureware.com/home (real path: `/Bids`, 1183 records)
+- https://snoco.procureware.com/Bids (re-checked 2026-09-30 — reviewed first 50 of 1745 records with title/category-code review; two qualifying IT systems RFPs saved: `Source/Scraped/2026-09-30_Snohomish-RFP-26-0804BC-Training-Management-System.md` and `Source/Scraped/2026-09-30_Snohomish-RFP-26-0726BC-C-Online-Database-Reporting.md`; also noted but not saved: Cancelled "RFP-26-0791BC AI Governance Solution" and Cancelled "RFP-25-0606BC Web Design, Hosting and CMS Solution" (NIGP 920-series codes, would have matched, but status is Cancelled so not an active opportunity); narrative descriptions are gated behind vendor login, only titles/categories reviewed; remaining ~1695 records not exhaustively paged through given volume)
+- https://stamfordct.procureware.com/home (real path: `/Bids`, 1187 records; re-checked 2026-09-30 — reviewed page 1 of ~24 pages (no working keyword filter found); previously-saved "2027.0084 City RFP - Enterprise SIP Trunking, PSTN, Numbering and 911 Services" still open (see `Source/Scraped/2026-09-11_City-of-Stamford-Enterprise-SIP-Trunking-RFP.md`); no other approved-keyword match on page 1; remaining pages not exhaustively reviewed given volume)
 
 ## PeopleSoft / Oracle Cloud supplier portals (public bidding-opportunity tile/grid)
 
