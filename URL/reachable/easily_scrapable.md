@@ -62,8 +62,8 @@ Scope: this file only covers the portion of `url_reachable.md` reviewed in the 2
 
 ## Periscope / BidSync family (public advanced-search results)
 
-- https://sdbuynet.sandiegocounty.gov/page.aspx/en/usr/login (via "View Solicitations" link → public search/results, though downloading docs needs login)
-- https://www.bidbuy.illinois.gov/bso/external/vendor/regSummary.sdo?vendorId=NZdPl7Rvv_Oq&mode=initial&dateTime=1694627292171 (real search at `/bso/view/search/external/advancedSearchBid.xhtml?openBids=true`, 156 results)
+- https://sdbuynet.sandiegocounty.gov/page.aspx/en/usr/login (via "View Solicitations" link → public search/results, though downloading docs needs login; re-checked 2026-09-30 — reviewed first page (15) of 150+ open records sorted by begin date, plus keyword searches for "staffing" and "information technology" (both returned only historical Closed/Cancelled/Awarded hits, no currently-Open match); one qualifying HR-services RFP saved from the open listing: `Source/Scraped/2026-09-30_SanDiegoCounty-RFP-Classification-Compensation-Survey.md`; remaining ~135 open records across pages 2-7 not exhaustively paged given volume)
+- https://www.bidbuy.illinois.gov/bso/external/vendor/regSummary.sdo?vendorId=NZdPl7Rvv_Oq&mode=initial&dateTime=1694627292171 (real search at `/bso/view/search/external/advancedSearchBid.xhtml?openBids=true`, now 175 open results; re-checked 2026-09-30 — reviewed page 1 of 7 (25 records) with full detail-page verification (including NIGP codes) for plausible IT/consulting candidates; one qualifying IFB saved: `Source/Scraped/2026-09-30_IL-MET10-Metro-Ethernet-IFB.md` (Metro Ethernet networking IFB, NIGP 838-xx); "Connect IL Implementation Tech Assistance" and "Tollway Technical Assistance Services" checked but are Type Code 55 Amendment/Change-Order notices to existing contracts, not new competitive solicitations, so not saved; remaining ~150 open records across pages 2-7 not exhaustively paged given volume)
 - https://www.commbuys.com/bso/view/login/login.xhtml (real search at same path, 971 open bids; top-of-page keyword search box works well)
 
 ## Vendor-registry / small municipal planroom platforms
