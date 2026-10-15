@@ -6,6 +6,8 @@ Run scope: the 30 browser-verified public URLs added to `URL/url_reachable.md` /
 
 Retrieved: 2026-10-15, America/New_York (session time).
 
+**2026-10-15 verification update:** every item originally tagged Matched in this digest was followed up with a second pass — opening each bid's actual detail page where the platform allowed it, with no logins created and no paid signups. That follow-up corrected several entries below (now marked ~~Matched~~ → **Unmatched** or **Excluded**, with the reason given inline) and added confirmed Issue Date / Bid Number / POC details for others. Full field-level results (POC emails, due dates, question-deadlines) were emailed to saikat.bose@ommincorp.com and akul.kaushal@ommincorp.com on 2026-10-15; the 9 fully-confirmed Matched records now have their own files in this folder (see the "Confirmed Matched — individually saved" list at the end of this document).
+
 ---
 
 ## 1. rfpmart.com (public homepage listing, all explicitly Posted 10/14/2026)
@@ -122,11 +124,11 @@ Retrieved: 2026-10-15, America/New_York (session time).
 
 | Title | Agency | Status | Note |
 |---|---|---|---|
-| ER Studio Data Architect Enterprise Subscription | SOS - Secretary of State | **Matched** | Software/IT subscription. |
-| 401(a) Contribution Plan Consultant-FY27-29 | IFA - Illinois Finance Authority | **Matched** | Consulting Services (financial plan consultant). |
-| ADC Space and Capacity Emergency | DoIT - Dept of Innovation and Technology | **Matched** | Issued by the state's IT department for data-center space/capacity — IT Services. |
-| PO27-059 Leadership Development Program | DCFS - Children and Family Services | **Matched** (borderline) | Leadership/training development — HR Services. |
-| PSB 26-4 Professional Services Bulletin | THA - Toll Highway Authority | **Matched** (borderline) | Labeled "Professional Services" bulletin/roster, not a single discrete scope — flagged as borderline. |
+| ER Studio Data Architect Enterprise Subscription | SOS - Secretary of State | **Matched** — confirmed, due 10/21/2026 (too soon) | Software/IT subscription. Full record saved: `2026-10-15_IL-27-350SOS-ITSOS-B-54564-ER-Studio-Data-Architect-Subscription.md` |
+| 401(a) Contribution Plan Consultant-FY27-29 | IFA - Illinois Finance Authority | ~~Matched~~ → **Excluded** (corrected 2026-10-15) | Verified via the bid's own detail page: already **awarded** to First American Bank, status "Bid to PO" — not an open opportunity. Detail page now returns HTTP 401 Unauthorized. |
+| ADC Space and Capacity Emergency | DoIT - Dept of Innovation and Technology | **Matched** — confirmed, due 01/05/2027 (good timing) | Issued by the state's IT department for data-center space/capacity — IT Services. Full record saved: `2026-10-15_IL-27-448DOIT-INFOT-B-54506-ADC-Space-Capacity-Emergency.md` |
+| PO27-059 Leadership Development Program | DCFS - Children and Family Services | **Matched** — confirmed, due 10/20/2026 (too soon) | Leadership/training development — HR Services. Full record saved: `2026-10-15_IL-27-418DCFS-PROCU-B-54497-Leadership-Development-Program.md` |
+| PSB 26-4 Professional Services Bulletin | THA - Toll Highway Authority | ~~Matched (borderline)~~ → **Unmatched** (corrected 2026-10-15) | Verified via the bid's own detail page: the bulletin covers a bundle of tollway bridge/road construction contracts (I-26-xxxx, RR-26-xxxx series), Qualification Based Selection for engineering/construction services — not business/IT consulting. |
 | Compressor Components | SOS | Unmatched | Equipment. |
 | X-Ray Machine | SOS | Unmatched | Equipment. |
 | Ride-On Sweeper/Scrubber with Attachments | SOS | Unmatched | Equipment. |
@@ -152,7 +154,7 @@ Retrieved: 2026-10-15, America/New_York (session time).
 
 | Title | Agency | Status | Note |
 |---|---|---|---|
-| EWEB RFP #26-173-Q Part 12D Report Consulting | EWEB | **Matched** | Consulting Services. |
+| EWEB RFP #26-173-Q Part 12D Report Consulting | EWEB | ~~Matched~~ → **Unmatched** (corrected 2026-10-15) | Verified via the bid's own detail page: scope is independent hydroelectric dam-safety inspection engineering (18 CFR Part 12D) for the Leaburg-Walterville Hydroelectric Project, NIGP 969-40 "Other Services Contracts, Power Plant" — specialized dam-safety/power-plant engineering, not business/IT consulting as approved. |
 | 3 - 18' Flex Wing Rotary Mowers | Dept of Transportation | Unmatched | Equipment. |
 | Simulation and Training Equipment | Klamath Falls City School District | Unmatched | Equipment purchase, not a training-services contract. |
 | HVAC Services for Fire Department & Fire Stations | Tualatin Valley Fire & Rescue | Unmatched | HVAC. |
@@ -179,9 +181,9 @@ Retrieved: 2026-10-15, America/New_York (session time).
 
 | Title | Agency | Status | Note |
 |---|---|---|---|
-| OFF50 & ITC73 - Audio Visual Solution for Boston Regional MPO | Metropolitan Area Planning Council | **Matched** | AV *solution* carries an IT commodity code (ITC73) — IT Services. |
-| Forest Carbon Remote Sensing RFI | Exec Office of Energy and Environmental Affairs | **Matched** (borderline) | Data collection/analysis service — Data Research and Analytics, though scientific/environmental in nature. |
-| PRF78 RFQ: Financial Assessment and Risk Monitoring (FARM) advisory support services | Dept of Higher Education | **Matched** | Consulting/advisory services. |
+| OFF50 & ITC73 - Audio Visual Solution for Boston Regional MPO | Metropolitan Area Planning Council | ~~Matched~~ → **Unmatched** (corrected 2026-10-15) | Verified via the bid's own detail page: scope is AV equipment assessment/design/install for conference rooms (video-conferencing cameras, UNSPSC 45-12-15 "Cameras"), not an IT-services engagement despite the ITC73 commodity-code hint. |
+| Forest Carbon Remote Sensing RFI | Exec Office of Energy and Environmental Affairs | ~~Matched (borderline)~~ → **Unmatched** (corrected 2026-10-15) | Verified via the bid's own detail page: scope is environmental/forestry science (LiDAR, satellite/aerial imagery, in-situ field data for forest carbon stock measurement), NIGP 70-15-00 — specialized environmental science, not business Data Research and Analytics as approved. |
+| PRF78 RFQ: Financial Assessment and Risk Monitoring (FARM) advisory support services | Dept of Higher Education | ~~Matched~~ → **Unmatched / Excluded** (corrected 2026-10-15) | Verified via the bid's own detail page: **Bid Type is CLOSED and "Invitation Only Opportunity"** — not open to public bidders. Scope is also independent financial auditing/bookkeeping (UNSPSC 84-11-00), not approved consulting. |
 | OFF50 - RFQ 270FF50MP01 CAMERA EQUIPMENT | Executive Office of Education | Unmatched | Equipment. |
 | Rec Shade Structures | Town of Bourne | Unmatched | Construction. |
 | Field Trips and Athletic Events Bus Transportation Services 2027-2029 | City of Leominster | Unmatched | Transportation services. |
@@ -202,8 +204,8 @@ Retrieved: 2026-10-15, America/New_York (session time).
 
 | Title | Status | Note |
 |---|---|---|
-| T3041 - Wastewater & Water Treatment Plant Operators for the NJDOC | **Matched** | Contracted-personnel staffing arrangement — Staffing, consistent with prior specialized-trade staffing saved by this project (e.g. aircraft maintenance technicians). |
-| T2774 - Front End Mail Receipt & Pre-Processing Services - DORES | **Matched** | Data Entry, Scanning, Records and Document Related Services. |
+| T3041 - Wastewater & Water Treatment Plant Operators for the NJDOC | **Matched** — confirmed, due 01/15/2027 (good timing) | Contracted-personnel staffing arrangement — Staffing, consistent with prior specialized-trade staffing saved by this project (e.g. aircraft maintenance technicians). Full record saved: `2026-10-15_NJ-T3041-Wastewater-Treatment-Plant-Operators-Staffing.md` |
+| T2774 - Front End Mail Receipt & Pre-Processing Services - DORES | **Matched** — confirmed, due 12/16/2026 (good timing) | Data Entry, Scanning, Records and Document Related Services. Full record saved: `2026-10-15_NJ-T2774-Front-End-Mail-Receipt-Pre-Processing-Services.md` |
 | T2314 - NJKiDS Application Maintenance and Support for NJ ACSES | Matched | Already saved — `2026-09-26_NJ-T2314-NJKiDS-Application-Maintenance-Support.md`. Confirmed still open, no change. |
 | T3161 - NJ Labor Tax Integrated Solution for UI, TDI, FLI, Workforce and Audits | Matched | Already saved — `2026-09-24_NJ-T3161-Labor-Tax-Integrated-Solution.md`. Confirmed still open, no change. |
 | T1932 - Contracted System Administrator (CSA) for CSOC | Matched | Already saved — existing record. Confirmed still open, no change. |
@@ -229,11 +231,11 @@ Retrieved: 2026-10-15, America/New_York (session time).
 
 | Title | Agency | Status | Note |
 |---|---|---|---|
-| Pre-Solicitation - DMV WS3A - DL/ID Mainframe Services, Data & Integration (Migration RFP) | Dept of Motor Vehicles | **Matched** | IT Services (mainframe/data migration). |
-| NASPO ValuePoint Emerging Technologies Consulting and Services (OK RFP# SW1045) | DGS - Statewide Procurement | **Matched** | Consulting Services / IT. |
-| CPGP Grants Management System | State & Community Corrections | **Matched** | Software system — IT Services. |
-| Request for Information (RFI) for Building Engineering Maintenance Staffing Services | DGS - Statewide Procurement | **Matched** | Explicit Staffing Services. |
-| RFQ #2026038 - Forcepoint Licenses Subscription Renewal | State Air Resources Board | **Matched** | Software/security licensing — IT Security Management Services / Software Maintenance-Support. |
+| Pre-Solicitation - DMV WS3A - DL/ID Mainframe Services, Data & Integration (Migration RFP) | Dept of Motor Vehicles | **Matched** — confirmed, due 10/15/2026 10AM (too soon — closed same day as verification) | IT Services (mainframe/data migration). Full record saved: `2026-10-15_CA-0000040415-DMV-Mainframe-Data-Integration-Migration-RFP.md` |
+| NASPO ValuePoint Emerging Technologies Consulting and Services (OK RFP# SW1045) | DGS - Statewide Procurement | **Excluded** (corrected 2026-10-15) | Verified via the bid's own detail page: this is a **State of Oklahoma** solicitation cross-posted to CA for informational purposes only — "Do not remit requests or submittals to the State of California." Not a pursuable CA opportunity as posted; Oklahoma's own posting was not located. |
+| CPGP Grants Management System | State & Community Corrections | **Matched** — confirmed, due 10/15/2026 5PM (too soon — closed same day as verification) | Software system — IT Services. Full record saved: `2026-10-15_CA-0000040411-CPGP-Grants-Management-System.md` |
+| Request for Information (RFI) for Building Engineering Maintenance Staffing Services | DGS - Statewide Procurement | **Matched** — confirmed, due 10/15/2026 5PM (too soon — closed same day as verification) | Explicit Staffing Services. Full record saved: `2026-10-15_CA-0000040517-Building-Engineering-Maintenance-Staffing-RFI.md` |
+| RFQ #2026038 - Forcepoint Licenses Subscription Renewal | State Air Resources Board | **Matched** — confirmed, due 10/15/2026 5PM (too soon — closed same day as verification) | Software/security licensing — IT Security Management Services / Software Maintenance-Support. Full record saved: `2026-10-15_CA-0000040465-Forcepoint-Licenses-Subscription-Renewal.md` |
 | 26C165002 - Janitorial Services / 04A7589 IFB Janitorial Services Alameda (2 listings) | CA Highway Patrol / Dept of Transportation | Unmatched | Janitorial. |
 | 26C146002 - Snow Removal Services Mount Shasta | CA Highway Patrol | Unmatched | Snow removal. |
 | Sourcewell Turf and Athletic Surfacing Solutions | DGS | Unmatched | Turf/surfacing goods. |
@@ -307,9 +309,26 @@ These loaded without any access barrier (no login/CAPTCHA), but the actual bid g
 
 ---
 
-## Summary
+## Summary (updated after the 2026-10-15 verification pass)
 
-- **Matched (new, not previously saved):** 24 — see table above; 5 have a confirmed Issue/Posted Date and were also saved as individual `Source/Scraped/` records.
+- **Matched, confirmed with full detail (Issue Date, Bid Number, POC) and individually saved:** 9 — see the file list below. 5 of these close the same day as verification (too soon to realistically pursue, per user guidance that due dates under ~15 days out aren't workable); 4 have good timing (≥15 days out).
+- **Matched, but full detail page is gated behind a login/paid account (title/teaser only, not independently confirmed):** 10 — see the original per-portal tables above; these still need manual scrutiny before acting or dropping.
+- **Reclassified Matched → Unmatched after opening the actual detail page:** 4 (EWEB Part 12D Report Consulting — dam-safety engineering, not consulting; COMMBUYS Audio Visual Solution — AV equipment install, not IT; COMMBUYS Forest Carbon Remote Sensing RFI — environmental science, not data analytics; Illinois PSB 26-4 — tollway construction/engineering QBS, not IT/business consulting).
+- **Excluded (not a pursuable open opportunity, regardless of subject matter):** 2 (Illinois 401(a) Contribution Plan Consultant — already awarded, status Bid to PO; COMMBUYS FARM Advisory Support — Invitation Only / Bid Type CLOSED).
 - **Matched (already saved in a prior session, re-confirmed still open):** 5 (NJSTART T2314, T3161, T1932, T2775, T1628).
-- **Unmatched (recorded, not discarded):** ~190 across the 14 portals actually searched.
+- **Unmatched (recorded, not discarded):** ~190 across the 14 portals actually searched in the original pass.
 - **Portals pending a deeper pass:** 9 (listed in section 15).
+
+### Confirmed Matched — individually saved (2026-10-15 verification pass)
+
+- `2026-10-15_CA-0000040415-DMV-Mainframe-Data-Integration-Migration-RFP.md` — too soon
+- `2026-10-15_CA-0000040411-CPGP-Grants-Management-System.md` — too soon
+- `2026-10-15_CA-0000040517-Building-Engineering-Maintenance-Staffing-RFI.md` — too soon
+- `2026-10-15_CA-0000040465-Forcepoint-Licenses-Subscription-Renewal.md` — too soon
+- `2026-10-15_IL-27-350SOS-ITSOS-B-54564-ER-Studio-Data-Architect-Subscription.md` — too soon
+- `2026-10-15_IL-27-418DCFS-PROCU-B-54497-Leadership-Development-Program.md` — too soon
+- `2026-10-15_IL-27-448DOIT-INFOT-B-54506-ADC-Space-Capacity-Emergency.md` — good timing
+- `2026-10-15_NJ-T3041-Wastewater-Treatment-Plant-Operators-Staffing.md` — good timing
+- `2026-10-15_NJ-T2774-Front-End-Mail-Receipt-Pre-Processing-Services.md` — good timing
+
+Full field-level data (POC emails, due dates, question-submission deadlines where published) for all of the above plus the 10 gated/unconfirmed items was emailed to saikat.bose@ommincorp.com and akul.kaushal@ommincorp.com on 2026-10-15.
