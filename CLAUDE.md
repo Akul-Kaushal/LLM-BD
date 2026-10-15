@@ -25,9 +25,19 @@
    - Latest/current RFPs, RFQs, RFSQs, IFBs, CRFQs.
    - A few recent RFPs, RFQs, RFSQs, IFBs, CRFQs.
    - Past RFPs, RFQs, RFSQs, IFBs, CRFQs when useful for confirming the portal's RFP, RFQs, RFSQs, IFBs, CRFQs structure.
-1. Filter the discovered opportunities using the approved keyword list and the current-month date filter below.
-2. Save only relevant, verifiable RFP, RFQs, RFSQs, IFBs, CRFQs findings to `Source/Scraped/`.
+1. Apply the current-month date filter below to find newly posted opportunities; apply the approved keyword list to classify each one as **Matched** or **Unmatched** — the keyword list is a classification signal now, not a save/discard gate (see [Matched/Unmatched Policy](#matchedunmatched-policy)).
+2. Save **every** newly posted, verifiable RFP, RFQ, RFSQ, IFB, CRFQ finding that passes the date filter to `Source/Scraped/`, tagged Matched or Unmatched — do not discard Unmatched findings.
 3. Maintain the URL status files so that reachable, unreachable, and non-applicable URLs remain correctly classified.
+
+## Matched/Unmatched Policy
+
+Every new solicitation that passes the date filter gets saved — there is no keyword-based discard step anymore. The keyword/NAICS/NIGP/UNSPSC check still runs, but its only job is to set the `Match Status` field.
+
+1. For each new solicitation, read past the title: the full description, scope of work, commodity/category, and any listed NAICS/NIGP/UNSPSC codes, before deciding Matched or Unmatched. A generic or unrelated-sounding title is not sufficient grounds for Unmatched, and a keyword appearing only in passing (not the actual scope of work) is not sufficient grounds for Matched — judge the real underlying work.
+2. Tag **Matched** when the approved keyword list (or a supporting NAICS/NIGP/UNSPSC code) genuinely describes the solicited work. Record which keyword(s)/code(s) matched and why the scope of work is actually workable under them.
+3. Tag **Unmatched** when, after the deep read above, no approved keyword or code genuinely applies. Record a brief note on what the solicitation actually is and why it was judged out of scope — this is still a real, deliberate finding, not a skipped item.
+4. Never silently skip a new solicitation because it looks unrelated at a glance. If it passes the date filter, it gets a record — Matched or Unmatched — not a quiet discard.
+5. This policy applies to newly identified solicitations going forward; it does not retroactively require re-tagging everything already saved in `Source/Scraped/` under the old discard-if-unmatched rule, though a prior Unmatched-equivalent item re-encountered during a later run should be added under the new policy rather than skipped again.
 
 ## RFP Keyword Filter
 
@@ -141,7 +151,7 @@ Prioritize:
 
 Do not assume that a general bid, IFB, RFQ, notice, award, or other procurement record is an RFP. Record the solicitation type exactly as presented by the official source.
 
-### Step 4 — Apply the Keyword Filter
+### Step 4 — Classify Matched / Unmatched
 
 For each candidate RFP, do not stop at the title — check the full listing:
 
@@ -149,9 +159,9 @@ For each candidate RFP, do not stop at the title — check the full listing:
 2. Read the available description/scope of work/category.
 3. Read any listed NAICS code(s), NIGP code(s), and UNSPSC code(s) and their descriptions, when the portal provides them.
 4. Compare all of the above (title, description, scope, category, and codes) against the approved keyword list.
-5. Record the matching keyword(s) and any supporting NAICS/NIGP/UNSPSC code(s).
+5. Record the matching keyword(s) and any supporting NAICS/NIGP/UNSPSC code(s), if any.
 6. Assess whether the bid is actually workable under the approved filters — i.e. the underlying scope of work is genuinely IT services/staff augmentation/staffing/IT-related, not just a keyword appearing in passing.
-7. Keep the RFP only if the match is meaningful to the actual solicitation and the workability assessment supports it.
+7. Tag the RFP **Matched** if the match is meaningful to the actual solicitation and the workability assessment supports it; otherwise tag it **Unmatched** and briefly record what it actually is. Either way, it proceeds to Step 5 — nothing gets dropped here (see [Matched/Unmatched Policy](#matchedunmatched-policy)).
 
 ### Step 5 — Apply the Date Filter
 
@@ -218,7 +228,8 @@ rfp name: RFP Title
 - **Due Date:** ...
 - **Location:** ...
 - **Solicitation Type:** RFP
-- **Matched Keywords:** ...
+- **Match Status:** Matched | Unmatched
+- **Matched Keywords:** ... (or `None` when Unmatched)
 - **NAICS / NIGP / UNSPSC Codes:** ... (or `Not available`)
 - **Source URL:** ...
 - **Retrieved:** ... (timezone)
@@ -229,7 +240,9 @@ rfp name: RFP Title
 
 ## Relevance
 
-Explain briefly why the RFP matched one or more approved keywords and/or NAICS/NIGP/UNSPSC codes (not just the title), and why the underlying scope of work is workable under the approved filters.
+If **Matched**: explain briefly why the RFP matched one or more approved keywords and/or NAICS/NIGP/UNSPSC codes (not just the title), and why the underlying scope of work is workable under the approved filters.
+
+If **Unmatched**: state briefly what the solicitation actually is, and why — after reading the full description, scope of work, and any codes — it does not genuinely fall under the approved keyword list. This is a recorded finding, not a placeholder.
 
 ## Source
 
@@ -257,10 +270,10 @@ Use the official source as the primary source. Keep the original RFP title and s
    - Blocked/inaccessible pages.
    - Empty search results.
    - Pages with no RFP content.
-   - RFPs that do not meaningfully match the approved keyword filter.
    - RFPs whose Issue Date (or Start Date, when Issue Date is unavailable) falls before the 1st of the current month at run-time, or whose date cannot be determined (see [RFP Date Filter](#rfp-date-filter)).
-4. Preserve historical scraped records unless an update is required for the same RFP.
-5. Do not delete historical records merely because an RFP is no longer current or no longer meets the current run's date filter.
+4. Do create a scraped file for a real, dated solicitation even when it is tagged **Unmatched** — see [Matched/Unmatched Policy](#matchedunmatched-policy). "No meaningful keyword match" is no longer grounds to skip saving a real solicitation; it is grounds to tag it Unmatched instead.
+5. Preserve historical scraped records unless an update is required for the same RFP.
+6. Do not delete historical records merely because an RFP is no longer current or no longer meets the current run's date filter.
 
 ### URL Status Rules
 
@@ -302,18 +315,18 @@ akul.kaushal@ommincorp.com
 ```
 ### Email Rules
 
-1. Send only findings containing actual, verified RFP data.
-2. Do not email null, empty, placeholder, inaccessible, or no-match results.
-3. Include the RFP name, date, issue/start date, end/closing date, matched keywords, key details, and source URL for each finding.
-4. If there are no non-null findings, do not send an empty findings email; report that no qualifying findings were found.
+1. Send every verified finding that passed the date filter — Matched and Unmatched alike. Do not email null, empty, placeholder, or inaccessible-page results; those are not findings.
+2. Include the RFP name, date, issue/start date, end/closing date, Match Status, matched keywords (or `None` when Unmatched), key details, and source URL for each finding.
+3. Organize the email into two clearly labeled sections — Matched and Unmatched — so the reader can immediately tell which is which; do not interleave them.
+4. If there are no non-null findings at all, do not send an empty findings email; report that no qualifying findings were found.
 5. Use the configured mail integration/recipient named `configured_mail`.
 6. Do not expose credentials or authentication information in the email.
 7. The email should summarize the findings clearly and link back to the official source URLs.
-8. Mail must be in html form and also the finding must be in this format
+8. Mail must be in html form and also the finding must be in this format, under its Matched or Unmatched section
 ```mail format
-RFP Name
+RFP Name — [Matched | Unmatched]
 - Source: <source_link>
-  | Rfp Title | Dtae | Issue/Start Date | End/Closing Date |
+  | Rfp Title | Date | Issue/Start Date | End/Closing Date |
 ```
 
 ## Completion Checklist
@@ -323,9 +336,9 @@ Before finishing a research run, verify:
 
 - [ ] Every URL in `URL/url_reachable.md` was considered.
 - [ ] Each URL was classified correctly.
-- [ ] RFP candidates were checked against the approved keyword list.
+- [ ] RFP candidates were checked against the approved keyword list and tagged Matched or Unmatched after reading the full description/scope/codes, not just the title.
 - [ ] RFP candidates were checked against the current-month date filter (Issue Date, falling back to Start Date; cutoff = 1st of current month at run-time).
-- [ ] Only meaningful keyword matches were saved.
+- [ ] Every RFP meeting the date filter was saved regardless of Match Status — none were silently discarded for lacking a keyword match.
 - [ ] Only RFPs meeting the date filter were saved; previously saved historical records were left untouched.
 - [ ] Every saved RFP has an official source URL.
 - [ ] Important available dates, including issue/start and end/closing dates when available, were captured.
