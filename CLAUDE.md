@@ -327,7 +327,11 @@ akul.kaushal@ommincorp.com
 5. Use the configured mail integration/recipient named `configured_mail`.
 6. Do not expose credentials or authentication information in the email.
 7. The email should summarize the findings clearly and link back to the official source URLs.
-8. Mail must be in html form and also the finding must be in this format, under its Matched or Unmatched section
+8. Mail must always be sent in proper, well-formed HTML — never plain text, and never raw Markdown pasted into the body. Concretely:
+   - Use real HTML tags for structure: `<h2>`/`<h3>` for section headings, `<table>`/`<tr>`/`<th>`/`<td>` for any tabular data (findings lists, field comparisons), `<ul>`/`<li>` for lists, `<a href="...">` for links. Do not leave Markdown syntax (`**bold**`, `| pipe | tables |`, `#` headings, `` `backticks` ``) unconverted in the HTML body — it will render as literal characters in an email client.
+   - Every section (Matched, Unmatched, any other grouping) gets its own heading and, where the content is tabular, its own `<table>` with a header row.
+   - Keep the same structure/sections across an email thread on the same subject so findings stay easy to compare run over run.
+9. Mail must have the finding in this format, under its Matched or Unmatched section
 ```mail format
 RFP Name — [Matched | Unmatched]
 - Source: <source_link>
