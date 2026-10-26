@@ -184,11 +184,11 @@ Before saving:
 - Capture issue/start date when available.
 - Capture end date/closing date when available.
 - Capture response/due date when available.
-- Capture the question-submission deadline when the portal publishes one separately from the due date.
-- Capture the POC/buyer name and email when available; if only a department-generic email is published, capture that rather than leaving the field blank.
+: - Capture the question-submission deadline when the portal publishes one separately from the due date.
+: - Capture the POC/buyer name and email when available; if only a department-generic email is published, capture that rather than leaving the field blank.
 - Capture agency/organization when available.
 - Capture location when available.
-- If an open-looking bid turns out to already have an awarded vendor, a "Bid to PO"/closed/invitation-only status, or is an amendment/change-order to an existing contract rather than a new competitive solicitation, do not treat it as a live opportunity — note the actual status instead of its original-looking "open" listing.
+: - If an open-looking bid turns out to already have an awarded vendor, a "Bid to PO"/closed/invitation-only status, or is an amendment/change-order to an existing contract rather than a new competitive solicitation, do not treat it as a live opportunity — note the actual status instead of its original-looking "open" listing.
 - Capture the matched keyword(s).
 - Capture the NAICS/NIGP/UNSPSC code(s) when available, and note if they supported the relevance decision.
 - Capture the official source URL.
@@ -229,11 +229,11 @@ rfp name: RFP Title
 - **Issue / Start Date:** ...
 - **End / Closing Date:** ...
 - **Due Date:** ...
-- **Question Submission Due Date:** ... (or `Not available` — some portals don't publish this separately from the Due Date)
-- **POC / Buyer:** Name and email when published (or `Not available` — some portals only publish a department-generic email, which should still be captured rather than left blank)
+: - **Question Submission Due Date:** ... (or `Not available` — some portals don't publish this separately from the Due Date)
+: - **POC / Buyer:** Name and email when published (or `Not available` — some portals only publish a department-generic email, which should still be captured rather than left blank)
 - **Location:** ...
 - **Solicitation Type:** RFP
-- **Match Status:** Matched | Unmatched | Matched (unconfirmed — full detail page gated behind login/paid account)
+: - **Match Status:** Matched | Unmatched | Matched (unconfirmed — full detail page gated behind login/paid account)
 - **Matched Keywords:** ... (or `None` when Unmatched)
 - **NAICS / NIGP / UNSPSC Codes:** ... (or `Not available`)
 - **Source URL:** ...
